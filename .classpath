@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/PropertyFinder/cucumber/cucumber-junit-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/PropertyFinder/cucumber/hamcrest-core-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/PropertyFinder/cucumber/jchronic-0.2.6.jar"/>
+	<classpathentry kind="lib" path="C:/PropertyFinder/cucumber/junit-4.10.jar"/>
+	<classpathentry kind="lib" path="C:/PropertyFinder/java-client-3.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/PropertyFinder/selenium-java-2.48.0-srcs.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Nauman/Downloads/cucumber-jvm-deps-1.0.6.jar"/>
+	<classpathentry kind="lib" path="C:/PropertyFinder/cucumber/cucumber-core-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/PropertyFinder/cucumber/cucumber-html-0.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/PropertyFinder/cucumber/cucumber-java-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/PropertyFinder/client-combined-3.4.0-nodeps.jar"/>
+	<classpathentry kind="lib" path="C:/PropertyFinder/selenium-server-standalone-3.4.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
