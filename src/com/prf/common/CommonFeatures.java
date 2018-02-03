@@ -19,8 +19,8 @@ public class CommonFeatures {
 	/** Link for toggling language from English to Arabic.*/
 	public static final String TOGGLE_LANGUAGE_TO_ARABIC  = "a.globalswitch_langlink.globalswitch_langlink-ar";
 	
-	/** Find Agent link at the tope of the page. */
-	public static final String FIND_AGENT_LINK = "header#header nav > ul > li:nth-child(4) > a.js-find-agent";
+	/** Find Agent link at the top of the page. */
+	public static final String FIND_AGENT_LINK = "header#header nav > ul > li:nth-child(4) > a";
 	
 	/**
 	 * @param driver

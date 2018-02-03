@@ -845,3 +845,706 @@ e8-b315-81834a38a8b3] - page.settings - {"XSSAuditingEnabled":false,"javascriptC
 [INFO  - 2018-02-03T14:05:01.176Z] Session [399c1ff0-08eb-11e8-8b3b-634092edf688] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
 [INFO  - 2018-02-03T14:05:01.176Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 399c1ff0-08eb-11e8-8b3b-634092edf688
 [INFO  - 2018-02-03T14:10:34.995Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:18:31.992Z] GhostDriver - Main - running on port 12874
+[INFO  - 2018-02-03T18:18:32.631Z] Session [a4581bf0-090e-11e8-8e65-4d48cfedd86a] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-02-03T18:18:32.631Z] Session [a4581bf0-090e-11e8-8e65-4d48cfedd86a] - page.customHeaders:  - {}
+[INFO  - 2018-02-03T18:18:32.631Z] Session [a4581bf0-090e-11e8-8e65-4d48cfedd86a] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-03T18:18:32.632Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: a4581bf0-090e-11e8-8e65-4d48cfedd86a
+[INFO  - 2018-02-03T18:18:53.565Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-02-03T18:18:56.137Z] GhostDriver - Main - running on port 33200
+[INFO  - 2018-02-03T18:18:56.668Z] Session [b2abdd40-090e-11e8-98fc-37c184020601] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-02-03T18:18:56.668Z] Session [b2abdd40-090e-11e8-98fc-37c184020601] - page.customHeaders:  - {}
+[INFO  - 2018-02-03T18:18:56.669Z] Session [b2abdd40-090e-11e8-98fc-37c184020601] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-03T18:18:56.669Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: b2abdd40-090e-11e8-98fc-37c184020601
+[INFO  - 2018-02-03T18:23:56.141Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:28:56.145Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:33:56.148Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:38:56.152Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:43:56.153Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:48:56.152Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:53:56.160Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:58:56.160Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-03T18:19:12.326Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: bc00c7c0-090e-11e8-9f87-99012c1a2ecd
+[INFO  - 2018-02-03T18:24:11.793Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:29:11.797Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:34:11.799Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:39:11.808Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:44:11.809Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:49:11.809Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:54:11.809Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:59:11.815Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-03T18:21:28.381Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 0d196e50-090f-11e8-8aed-df36eee38c80
+[INFO  - 2018-02-03T18:21:50.697Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-02-03T18:21:53.184Z] GhostDriver - Main - running on port 7170
+[INFO  - 2018-02-03T18:21:53.728Z] Session [1c349e50-090f-11e8-82d8-132d0d57c26c] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-02-03T18:21:53.728Z] Session [1c349e50-090f-11e8-82d8-132d0d57c26c] - page.customHeaders:  - {}
+[INFO  - 2018-02-03T18:21:53.729Z] Session [1c349e50-090f-11e8-82d8-132d0d57c26c] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-03T18:21:53.729Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 1c349e50-090f-11e8-82d8-132d0d57c26c
+[INFO  - 2018-02-03T18:26:53.181Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:31:53.189Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:36:53.189Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:41:53.191Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:46:53.194Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:51:53.194Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:56:53.204Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-03T18:22:06.510Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 23d32640-090f-11e8-b50d-c7b994ce643c
+[INFO  - 2018-02-03T18:27:05.981Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:32:05.983Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:37:05.998Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:42:06.011Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:47:06.013Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:52:06.021Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:57:06.021Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-03T18:24:18.907Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 72bd2d00-090f-11e8-87e4-0166147485f8
+[INFO  - 2018-02-03T18:24:34.284Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-02-03T18:24:36.855Z] GhostDriver - Main - running on port 23903
+[INFO  - 2018-02-03T18:24:37.247Z] Session [7dabf160-090f-11e8-92a0-49060437df55] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-02-03T18:24:37.248Z] Session [7dabf160-090f-11e8-92a0-49060437df55] - page.customHeaders:  - {}
+[INFO  - 2018-02-03T18:24:37.248Z] Session [7dabf160-090f-11e8-92a0-49060437df55] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-03T18:24:37.248Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 7dabf160-090f-11e8-92a0-49060437df55
+[INFO  - 2018-02-03T18:29:36.862Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:34:36.875Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:39:36.875Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:44:36.877Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:49:36.879Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:54:36.886Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:59:36.891Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-03T18:24:51.141Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 85f3ffc0-090f-11e8-aaee-e34cb1b98a66
+[INFO  - 2018-02-03T18:29:50.663Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:34:50.683Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:39:50.683Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:44:50.683Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:49:50.683Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:54:50.701Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:59:50.703Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-03T18:27:43.964Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: ecf6d940-090f-11e8-93b2-737af2e4cab0
+[INFO  - 2018-02-03T18:27:58.945Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-02-03T18:28:01.447Z] GhostDriver - Main - running on port 19479
+[INFO  - 2018-02-03T18:28:01.998Z] Session [f7b67750-090f-11e8-8bcb-93479aa0c2f8] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-02-03T18:28:01.998Z] Session [f7b67750-090f-11e8-8bcb-93479aa0c2f8] - page.customHeaders:  - {}
+[INFO  - 2018-02-03T18:28:01.998Z] Session [f7b67750-090f-11e8-8bcb-93479aa0c2f8] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-03T18:28:01.999Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: f7b67750-090f-11e8-8bcb-93479aa0c2f8
+[INFO  - 2018-02-03T18:33:01.454Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:38:01.456Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:43:01.463Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:48:01.465Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:53:01.465Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:58:01.469Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-03T18:28:10.822Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: fcf871a0-090f-11e8-b287-0f07cd678fa6
+[INFO  - 2018-02-03T18:33:10.333Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:38:10.347Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:43:10.347Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:48:10.346Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:53:10.358Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:58:10.363Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-03T18:28:50.493Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 149e5e50-0910-11e8-a67d-cb9a38803d94
+[INFO  - 2018-02-03T18:29:07.465Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-02-03T18:29:09.934Z] GhostDriver - Main - running on port 47922
+[INFO  - 2018-02-03T18:29:10.472Z] Session [20864fc0-0910-11e8-9036-ff887579d661] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-02-03T18:29:10.472Z] Session [20864fc0-0910-11e8-9036-ff887579d661] - page.customHeaders:  - {}
+[INFO  - 2018-02-03T18:29:10.472Z] Session [20864fc0-0910-11e8-9036-ff887579d661] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-03T18:29:10.473Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 20864fc0-0910-11e8-9036-ff887579d661
+[ERROR - 2018-02-03T18:29:28.445Z] Session [20864fc0-0910-11e8-9036-ff887579d661] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2018-02-03T18:29:28.446Z] Session [20864fc0-0910-11e8-9036-ff887579d661] - page.onError - stack:
+  request (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  fetchChecksum (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  initProvider (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  forEach (:0)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  e (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+[ERROR - 2018-02-03T18:29:37.439Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1517682577417
+[INFO  - 2018-02-03T18:34:09.937Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:39:09.937Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:44:09.952Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:49:09.952Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:54:09.953Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:59:09.964Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-03T18:29:41.426Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 32f9d280-0910-11e8-a468-9d39435e860c
+[ERROR - 2018-02-03T18:29:54.096Z] Session [32f9d280-0910-11e8-a468-9d39435e860c] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2018-02-03T18:29:54.096Z] Session [32f9d280-0910-11e8-a468-9d39435e860c] - page.onError - stack:
+  request (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  fetchChecksum (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  initProvider (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  forEach (:0)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  e (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+[ERROR - 2018-02-03T18:29:56.330Z] Session [32f9d280-0910-11e8-a468-9d39435e860c] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2018-02-03T18:29:56.330Z] Session [32f9d280-0910-11e8-a468-9d39435e860c] - page.onError - stack:
+  canEmit (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  emitEntity (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  propertyLoad (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  map (:0)
+  updateProperties (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initStore (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initPropertyTab (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  e (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+[ERROR - 2018-02-03T18:29:58.983Z] Session [32f9d280-0910-11e8-a468-9d39435e860c] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2018-02-03T18:29:58.983Z] Session [32f9d280-0910-11e8-a468-9d39435e860c] - page.onError - stack:
+  canEmit (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  emitEntity (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  propertyLoad (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  map (:0)
+  updateProperties (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initStore (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initPropertyTab (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  e (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+[INFO  - 2018-02-03T18:30:00.690Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-02-03T18:30:56.203Z] GhostDriver - Main - running on port 22071
+[INFO  - 2018-02-03T18:30:56.837Z] Session [5fed15e0-0910-11e8-8d63-c50d38fdb863] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-02-03T18:30:56.837Z] Session [5fed15e0-0910-11e8-8d63-c50d38fdb863] - page.customHeaders:  - {}
+[INFO  - 2018-02-03T18:30:56.837Z] Session [5fed15e0-0910-11e8-8d63-c50d38fdb863] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-03T18:30:56.838Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 5fed15e0-0910-11e8-8d63-c50d38fdb863
+[INFO  - 2018-02-03T18:31:21.030Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-02-03T18:31:23.606Z] GhostDriver - Main - running on port 13420
+[INFO  - 2018-02-03T18:31:24.148Z] Session [7033a680-0910-11e8-92f1-7f2959fc9d12] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-02-03T18:31:24.149Z] Session [7033a680-0910-11e8-92f1-7f2959fc9d12] - page.customHeaders:  - {}
+[INFO  - 2018-02-03T18:31:24.149Z] Session [7033a680-0910-11e8-92f1-7f2959fc9d12] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-03T18:31:24.150Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 7033a680-0910-11e8-92f1-7f2959fc9d12
+[ERROR - 2018-02-03T18:31:38.554Z] Session [7033a680-0910-11e8-92f1-7f2959fc9d12] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2018-02-03T18:31:38.555Z] Session [7033a680-0910-11e8-92f1-7f2959fc9d12] - page.onError - stack:
+  request (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  fetchChecksum (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  initProvider (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  forEach (:0)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  e (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+[ERROR - 2018-02-03T18:31:43.158Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1517682703104
+[INFO  - 2018-02-03T18:36:23.616Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:41:23.624Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:46:23.640Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:51:23.640Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:56:23.644Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T19:01:23.661Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-03T18:31:47.133Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 7de5d0a0-0910-11e8-bcd1-3fc7f7fda8fc
+[ERROR - 2018-02-03T18:31:58.039Z] Session [7de5d0a0-0910-11e8-bcd1-3fc7f7fda8fc] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2018-02-03T18:31:58.040Z] Session [7de5d0a0-0910-11e8-bcd1-3fc7f7fda8fc] - page.onError - stack:
+  request (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  fetchChecksum (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  initProvider (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  forEach (:0)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  e (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+[ERROR - 2018-02-03T18:32:00.142Z] Session [7de5d0a0-0910-11e8-bcd1-3fc7f7fda8fc] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2018-02-03T18:32:00.143Z] Session [7de5d0a0-0910-11e8-bcd1-3fc7f7fda8fc] - page.onError - stack:
+  canEmit (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  emitEntity (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  propertyLoad (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  map (:0)
+  updateProperties (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initStore (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initPropertyTab (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  e (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+[ERROR - 2018-02-03T18:32:03.565Z] Session [7de5d0a0-0910-11e8-bcd1-3fc7f7fda8fc] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2018-02-03T18:32:03.566Z] Session [7de5d0a0-0910-11e8-bcd1-3fc7f7fda8fc] - page.onError - stack:
+  canEmit (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  emitEntity (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  propertyLoad (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  map (:0)
+  updateProperties (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initStore (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initPropertyTab (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  e (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+[INFO  - 2018-02-03T18:32:05.443Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-02-03T18:35:57.545Z] GhostDriver - Main - running on port 17416
+[INFO  - 2018-02-03T18:35:58.118Z] Session [13811200-0911-11e8-a37c-e9a52fe62529] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-02-03T18:35:58.119Z] Session [13811200-0911-11e8-a37c-e9a52fe62529] - page.customHeaders:  - {}
+[INFO  - 2018-02-03T18:35:58.119Z] Session [13811200-0911-11e8-a37c-e9a52fe62529] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-03T18:35:58.119Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 13811200-0911-11e8-a37c-e9a52fe62529
+[INFO  - 2018-02-03T18:36:16.011Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-02-03T18:36:18.503Z] GhostDriver - Main - running on port 16576
+[INFO  - 2018-02-03T18:36:19.074Z] Session [1ffe1780-0911-11e8-b3d1-07d5f5adeedf] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-02-03T18:36:19.074Z] Session [1ffe1780-0911-11e8-b3d1-07d5f5adeedf] - page.customHeaders:  - {}
+[INFO  - 2018-02-03T18:36:19.074Z] Session [1ffe1780-0911-11e8-b3d1-07d5f5adeedf] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-03T18:36:19.075Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 1ffe1780-0911-11e8-b3d1-07d5f5adeedf
+[ERROR - 2018-02-03T18:36:35.229Z] Session [1ffe1780-0911-11e8-b3d1-07d5f5adeedf] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2018-02-03T18:36:35.230Z] Session [1ffe1780-0911-11e8-b3d1-07d5f5adeedf] - page.onError - stack:
+  request (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  fetchChecksum (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  initProvider (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  forEach (:0)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  e (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+[ERROR - 2018-02-03T18:36:35.631Z] RouterReqHand - _handle.error - {"name":"Missing Command Parameter","message":"{\"headers\":{\"Accept-Encoding\":\"gzip,deflate\",\"Connection\":\"Keep-Alive\",\"Content-Length\":\"2\",\"Content-Type\":\"application/json; charset=utf-8\",\"Host\":\"localhost:16576\",\"User-Agent\":\"Apache-HttpClient/4.5.3 (Java/1.8.0_151)\"},\"httpVersion\":\"1.1\",\"method\":\"POST\",\"post\":\"{}\",\"url\":\"/window/fullscreen\",\"urlParsed\":{\"anchor\":\"\",\"query\":\"\",\"file\":\"fullscreen\",\"directory\":\"/window/\",\"path\":\"/window/fullscreen\",\"relative\":\"/window/fullscreen\",\"port\":\"\",\"host\":\"\",\"password\":\"\",\"user\":\"\",\"userInfo\":\"\",\"authority\":\"\",\"protocol\":\"\",\"source\":\"/window/fullscreen\",\"queryKey\":{},\"chunks\":[\"window\",\"fullscreen\"]},\"urlOriginal\":\"/session/1ffe1780-0911-11e8-b3d1-07d5f5adeedf/window/fullscreen\"}","line":263,"sourceURL":"phantomjs://code/session_request_handler.js","stack":"_doWindowHandleCommands@phantomjs://code/session_request_handler.js:263:73\n_handle@phantomjs://code/session_request_handler.js:105:36\n_reroute@phantomjs://code/request_handler.js:61:20\n_handle@phantomjs://code/router_request_handler.js:78:46"}
+[INFO  - 2018-02-03T18:41:18.512Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:46:18.517Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:51:18.534Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:56:18.533Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T19:01:18.535Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-03T18:36:38.909Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 2bd0ac30-0911-11e8-9044-5fbbb5d841f1
+[ERROR - 2018-02-03T18:36:52.987Z] Session [2bd0ac30-0911-11e8-9044-5fbbb5d841f1] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2018-02-03T18:36:52.987Z] Session [2bd0ac30-0911-11e8-9044-5fbbb5d841f1] - page.onError - stack:
+  request (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  fetchChecksum (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  initProvider (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  forEach (:0)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  e (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+[ERROR - 2018-02-03T18:36:55.051Z] Session [2bd0ac30-0911-11e8-9044-5fbbb5d841f1] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2018-02-03T18:36:55.051Z] Session [2bd0ac30-0911-11e8-9044-5fbbb5d841f1] - page.onError - stack:
+  canEmit (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  emitEntity (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  propertyLoad (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  map (:0)
+  updateProperties (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initStore (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initPropertyTab (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  e (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+[ERROR - 2018-02-03T18:36:58.180Z] Session [2bd0ac30-0911-11e8-9044-5fbbb5d841f1] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2018-02-03T18:36:58.180Z] Session [2bd0ac30-0911-11e8-9044-5fbbb5d841f1] - page.onError - stack:
+  canEmit (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  emitEntity (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  propertyLoad (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  map (:0)
+  updateProperties (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initStore (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initPropertyTab (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  e (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+[INFO  - 2018-02-03T18:37:02.080Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-02-03T18:39:26.429Z] GhostDriver - Main - running on port 43059
+[INFO  - 2018-02-03T18:39:27.044Z] Session [9008a5e0-0911-11e8-9efd-1f11c4761e14] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-02-03T18:39:27.044Z] Session [9008a5e0-0911-11e8-9efd-1f11c4761e14] - page.customHeaders:  - {}
+[INFO  - 2018-02-03T18:39:27.045Z] Session [9008a5e0-0911-11e8-9efd-1f11c4761e14] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-03T18:39:27.045Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 9008a5e0-0911-11e8-9efd-1f11c4761e14
+[INFO  - 2018-02-03T18:39:44.426Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-02-03T18:39:47.000Z] GhostDriver - Main - running on port 32329
+[INFO  - 2018-02-03T18:39:47.630Z] Session [9c4c72f0-0911-11e8-b343-9bff794a6799] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-02-03T18:39:47.630Z] Session [9c4c72f0-0911-11e8-b343-9bff794a6799] - page.customHeaders:  - {}
+[INFO  - 2018-02-03T18:39:47.631Z] Session [9c4c72f0-0911-11e8-b343-9bff794a6799] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-03T18:39:47.631Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 9c4c72f0-0911-11e8-b343-9bff794a6799
+[ERROR - 2018-02-03T18:40:05.846Z] Session [9c4c72f0-0911-11e8-b343-9bff794a6799] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2018-02-03T18:40:05.846Z] Session [9c4c72f0-0911-11e8-b343-9bff794a6799] - page.onError - stack:
+  request (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  fetchChecksum (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  initProvider (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  forEach (:0)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  e (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+[ERROR - 2018-02-03T18:40:07.154Z] Session [9c4c72f0-0911-11e8-b343-9bff794a6799] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2018-02-03T18:40:07.154Z] Session [9c4c72f0-0911-11e8-b343-9bff794a6799] - page.onError - stack:
+  request (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
+  fetchChecksum (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
+  initProvider (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
+  forEach (:0)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
+  e (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
+[ERROR - 2018-02-03T18:40:11.155Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1517683211094
+[INFO  - 2018-02-03T18:44:46.998Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:49:47.006Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:54:47.006Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:59:47.005Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+1-11e8-ac4a-176ab9851954] - page.customHeaders:  - {}
+[INFO  - 2018-02-03T18:40:15.319Z] Session [acce5ee0-0911-11e8-ac4a-176ab9851954] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-03T18:40:15.319Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: acce5ee0-0911-11e8-ac4a-176ab9851954
+[ERROR - 2018-02-03T18:40:27.602Z] Session [acce5ee0-0911-11e8-ac4a-176ab9851954] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2018-02-03T18:40:27.602Z] Session [acce5ee0-0911-11e8-ac4a-176ab9851954] - page.onError - stack:
+  request (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  fetchChecksum (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  initProvider (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  forEach (:0)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  e (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+[ERROR - 2018-02-03T18:40:30.019Z] Session [acce5ee0-0911-11e8-ac4a-176ab9851954] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2018-02-03T18:40:30.020Z] Session [acce5ee0-0911-11e8-ac4a-176ab9851954] - page.onError - stack:
+  canEmit (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  emitEntity (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  propertyLoad (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  map (:0)
+  updateProperties (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initStore (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initPropertyTab (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  e (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+[ERROR - 2018-02-03T18:40:32.946Z] Session [acce5ee0-0911-11e8-ac4a-176ab9851954] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2018-02-03T18:40:32.946Z] Session [acce5ee0-0911-11e8-ac4a-176ab9851954] - page.onError - stack:
+  canEmit (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  emitEntity (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  propertyLoad (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  map (:0)
+  updateProperties (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initStore (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initPropertyTab (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  e (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+[INFO  - 2018-02-03T18:40:35.536Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-02-03T18:43:27.680Z] GhostDriver - Main - running on port 8048
+[INFO  - 2018-02-03T18:43:28.306Z] Session [1fd627b0-0912-11e8-9902-39311df9e998] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-02-03T18:43:28.306Z] Session [1fd627b0-0912-11e8-9902-39311df9e998] - page.customHeaders:  - {}
+[INFO  - 2018-02-03T18:43:28.306Z] Session [1fd627b0-0912-11e8-9902-39311df9e998] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-03T18:43:28.307Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 1fd627b0-0912-11e8-9902-39311df9e998
+[INFO  - 2018-02-03T18:43:45.421Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-02-03T18:43:47.917Z] GhostDriver - Main - running on port 32613
+[INFO  - 2018-02-03T18:43:48.515Z] Session [2be0bc50-0912-11e8-9461-67a3f0f9a9da] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-02-03T18:43:48.516Z] Session [2be0bc50-0912-11e8-9461-67a3f0f9a9da] - page.customHeaders:  - {}
+[INFO  - 2018-02-03T18:43:48.516Z] Session [2be0bc50-0912-11e8-9461-67a3f0f9a9da] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-03T18:43:48.516Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 2be0bc50-0912-11e8-9461-67a3f0f9a9da
+[ERROR - 2018-02-03T18:44:00.126Z] Session [2be0bc50-0912-11e8-9461-67a3f0f9a9da] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2018-02-03T18:44:00.127Z] Session [2be0bc50-0912-11e8-9461-67a3f0f9a9da] - page.onError - stack:
+  request (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  fetchChecksum (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  initProvider (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  forEach (:0)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  e (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+[ERROR - 2018-02-03T18:44:03.326Z] Session [2be0bc50-0912-11e8-9461-67a3f0f9a9da] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2018-02-03T18:44:03.327Z] Session [2be0bc50-0912-11e8-9461-67a3f0f9a9da] - page.onError - stack:
+  request (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
+  fetchChecksum (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
+  initProvider (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
+  forEach (:0)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
+  e (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
+[ERROR - 2018-02-03T18:44:07.833Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1517683447780
+[INFO  - 2018-02-03T18:48:47.943Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:53:47.942Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:58:47.955Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+38.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-02-03T18:44:11.930Z] Session [39d5e2e0-0912-11e8-9e9b-69c1345c2b46] - page.customHeaders:  - {}
+[INFO  - 2018-02-03T18:44:11.931Z] Session [39d5e2e0-0912-11e8-9e9b-69c1345c2b46] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-03T18:44:11.932Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 39d5e2e0-0912-11e8-9e9b-69c1345c2b46
+[ERROR - 2018-02-03T18:44:18.709Z] Session [39d5e2e0-0912-11e8-9e9b-69c1345c2b46] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2018-02-03T18:44:18.709Z] Session [39d5e2e0-0912-11e8-9e9b-69c1345c2b46] - page.onError - stack:
+  request (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  fetchChecksum (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  initProvider (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  forEach (:0)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  e (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+[ERROR - 2018-02-03T18:44:20.444Z] Session [39d5e2e0-0912-11e8-9e9b-69c1345c2b46] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2018-02-03T18:44:20.444Z] Session [39d5e2e0-0912-11e8-9e9b-69c1345c2b46] - page.onError - stack:
+  canEmit (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  emitEntity (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  propertyLoad (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  map (:0)
+  updateProperties (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initStore (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initPropertyTab (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  e (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+[ERROR - 2018-02-03T18:44:26.173Z] Session [39d5e2e0-0912-11e8-9e9b-69c1345c2b46] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2018-02-03T18:44:26.174Z] Session [39d5e2e0-0912-11e8-9e9b-69c1345c2b46] - page.onError - stack:
+  canEmit (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  emitEntity (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  propertyLoad (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  map (:0)
+  updateProperties (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initStore (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initPropertyTab (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  e (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+[INFO  - 2018-02-03T18:44:32.601Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-02-03T18:47:17.181Z] GhostDriver - Main - running on port 36053
+[INFO  - 2018-02-03T18:47:17.978Z] Session [a8bb5230-0912-11e8-8d26-bb2a5283828c] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-02-03T18:47:17.978Z] Session [a8bb5230-0912-11e8-8d26-bb2a5283828c] - page.customHeaders:  - {}
+[INFO  - 2018-02-03T18:47:17.978Z] Session [a8bb5230-0912-11e8-8d26-bb2a5283828c] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-03T18:47:17.979Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: a8bb5230-0912-11e8-8d26-bb2a5283828c
+[INFO  - 2018-02-03T18:47:39.367Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-02-03T18:47:41.997Z] GhostDriver - Main - running on port 7160
+[INFO  - 2018-02-03T18:47:42.588Z] Session [b7665b40-0912-11e8-9026-e5b36474ae13] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-02-03T18:47:42.588Z] Session [b7665b40-0912-11e8-9026-e5b36474ae13] - page.customHeaders:  - {}
+[INFO  - 2018-02-03T18:47:42.588Z] Session [b7665b40-0912-11e8-9026-e5b36474ae13] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-03T18:47:42.588Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: b7665b40-0912-11e8-9026-e5b36474ae13
+[ERROR - 2018-02-03T18:48:07.436Z] Session [b7665b40-0912-11e8-9026-e5b36474ae13] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2018-02-03T18:48:07.436Z] Session [b7665b40-0912-11e8-9026-e5b36474ae13] - page.onError - stack:
+  request (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  fetchChecksum (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  initProvider (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  forEach (:0)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  e (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+[ERROR - 2018-02-03T18:48:09.662Z] Session [b7665b40-0912-11e8-9026-e5b36474ae13] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2018-02-03T18:48:09.662Z] Session [b7665b40-0912-11e8-9026-e5b36474ae13] - page.onError - stack:
+  request (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
+  fetchChecksum (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
+  initProvider (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
+  forEach (:0)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
+  e (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
+[ERROR - 2018-02-03T18:48:13.216Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1517683693168
+[INFO  - 2018-02-03T18:52:42.012Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T18:57:42.017Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+scriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-02-03T18:48:17.353Z] Session [cc1eec00-0912-11e8-8cbd-b1c19a500908] - page.customHeaders:  - {}
+[INFO  - 2018-02-03T18:48:17.354Z] Session [cc1eec00-0912-11e8-8cbd-b1c19a500908] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-03T18:48:17.354Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: cc1eec00-0912-11e8-8cbd-b1c19a500908
+[ERROR - 2018-02-03T18:48:31.347Z] Session [cc1eec00-0912-11e8-8cbd-b1c19a500908] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2018-02-03T18:48:31.348Z] Session [cc1eec00-0912-11e8-8cbd-b1c19a500908] - page.onError - stack:
+  request (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  fetchChecksum (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  initProvider (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  forEach (:0)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  e (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+[ERROR - 2018-02-03T18:48:33.407Z] Session [cc1eec00-0912-11e8-8cbd-b1c19a500908] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2018-02-03T18:48:33.408Z] Session [cc1eec00-0912-11e8-8cbd-b1c19a500908] - page.onError - stack:
+  canEmit (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  emitEntity (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  propertyLoad (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  map (:0)
+  updateProperties (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initStore (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initPropertyTab (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  e (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+[ERROR - 2018-02-03T18:48:36.897Z] Session [cc1eec00-0912-11e8-8cbd-b1c19a500908] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2018-02-03T18:48:36.898Z] Session [cc1eec00-0912-11e8-8cbd-b1c19a500908] - page.onError - stack:
+  canEmit (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  emitEntity (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  propertyLoad (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  map (:0)
+  updateProperties (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initStore (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initPropertyTab (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  e (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+[INFO  - 2018-02-03T18:48:38.694Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-02-03T18:51:44.106Z] GhostDriver - Main - running on port 31135
+[INFO  - 2018-02-03T18:51:44.753Z] Session [47bdf4a0-0913-11e8-ac88-750df062bd54] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-02-03T18:51:44.753Z] Session [47bdf4a0-0913-11e8-ac88-750df062bd54] - page.customHeaders:  - {}
+[INFO  - 2018-02-03T18:51:44.753Z] Session [47bdf4a0-0913-11e8-ac88-750df062bd54] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-03T18:51:44.753Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 47bdf4a0-0913-11e8-ac88-750df062bd54
+[INFO  - 2018-02-03T18:51:59.907Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-02-03T18:52:02.511Z] GhostDriver - Main - running on port 37824
+[INFO  - 2018-02-03T18:52:02.977Z] Session [5299f450-0913-11e8-99c3-e9652db98708] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-02-03T18:52:02.977Z] Session [5299f450-0913-11e8-99c3-e9652db98708] - page.customHeaders:  - {}
+[INFO  - 2018-02-03T18:52:02.977Z] Session [5299f450-0913-11e8-99c3-e9652db98708] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-03T18:52:02.978Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 5299f450-0913-11e8-99c3-e9652db98708
+[ERROR - 2018-02-03T18:52:14.877Z] Session [5299f450-0913-11e8-99c3-e9652db98708] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2018-02-03T18:52:14.877Z] Session [5299f450-0913-11e8-99c3-e9652db98708] - page.onError - stack:
+  request (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  fetchChecksum (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  initProvider (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  forEach (:0)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  e (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+[ERROR - 2018-02-03T18:52:17.148Z] Session [5299f450-0913-11e8-99c3-e9652db98708] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2018-02-03T18:52:17.149Z] Session [5299f450-0913-11e8-99c3-e9652db98708] - page.onError - stack:
+  request (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
+  fetchChecksum (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
+  initProvider (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
+  forEach (:0)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
+  e (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
+[ERROR - 2018-02-03T18:52:20.660Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1517683940601
+[INFO  - 2018-02-03T18:57:02.515Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+8-966b-39e2f9e44e03] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-02-03T18:52:24.989Z] Session [5fb842e0-0913-11e8-966b-39e2f9e44e03] - page.customHeaders:  - {}
+[INFO  - 2018-02-03T18:52:24.989Z] Session [5fb842e0-0913-11e8-966b-39e2f9e44e03] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-03T18:52:24.990Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 5fb842e0-0913-11e8-966b-39e2f9e44e03
+[ERROR - 2018-02-03T18:52:35.452Z] Session [5fb842e0-0913-11e8-966b-39e2f9e44e03] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2018-02-03T18:52:35.452Z] Session [5fb842e0-0913-11e8-966b-39e2f9e44e03] - page.onError - stack:
+  request (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  fetchChecksum (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  initProvider (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  forEach (:0)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  e (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+[ERROR - 2018-02-03T18:52:37.733Z] Session [5fb842e0-0913-11e8-966b-39e2f9e44e03] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2018-02-03T18:52:37.733Z] Session [5fb842e0-0913-11e8-966b-39e2f9e44e03] - page.onError - stack:
+  canEmit (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  emitEntity (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  propertyLoad (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  map (:0)
+  updateProperties (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initStore (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initPropertyTab (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  e (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+[ERROR - 2018-02-03T18:52:42.912Z] Session [5fb842e0-0913-11e8-966b-39e2f9e44e03] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2018-02-03T18:52:42.912Z] Session [5fb842e0-0913-11e8-966b-39e2f9e44e03] - page.onError - stack:
+  canEmit (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  emitEntity (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  propertyLoad (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  map (:0)
+  updateProperties (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initStore (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initPropertyTab (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  e (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+[INFO  - 2018-02-03T18:52:44.727Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-02-03T18:57:00.816Z] GhostDriver - Main - running on port 26369
+[INFO  - 2018-02-03T18:57:01.386Z] Session [04785130-0914-11e8-9367-7bae27a8eb0a] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-02-03T18:57:01.387Z] Session [04785130-0914-11e8-9367-7bae27a8eb0a] - page.customHeaders:  - {}
+[INFO  - 2018-02-03T18:57:01.387Z] Session [04785130-0914-11e8-9367-7bae27a8eb0a] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-03T18:57:01.387Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 04785130-0914-11e8-9367-7bae27a8eb0a
+[INFO  - 2018-02-03T18:57:18.448Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2018-02-03T18:57:20.924Z] GhostDriver - Main - running on port 14472
+[INFO  - 2018-02-03T18:57:21.459Z] Session [106f0fb0-0914-11e8-ac85-0752df02bc2e] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-02-03T18:57:21.459Z] Session [106f0fb0-0914-11e8-ac85-0752df02bc2e] - page.customHeaders:  - {}
+[INFO  - 2018-02-03T18:57:21.459Z] Session [106f0fb0-0914-11e8-ac85-0752df02bc2e] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-03T18:57:21.459Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 106f0fb0-0914-11e8-ac85-0752df02bc2e
+[ERROR - 2018-02-03T18:57:31.083Z] Session [106f0fb0-0914-11e8-ac85-0752df02bc2e] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2018-02-03T18:57:31.085Z] Session [106f0fb0-0914-11e8-ac85-0752df02bc2e] - page.onError - stack:
+  request (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  fetchChecksum (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  initProvider (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  forEach (:0)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  e (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+[ERROR - 2018-02-03T18:57:32.177Z] Session [106f0fb0-0914-11e8-ac85-0752df02bc2e] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2018-02-03T18:57:32.178Z] Session [106f0fb0-0914-11e8-ac85-0752df02bc2e] - page.onError - stack:
+  request (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
+  fetchChecksum (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
+  initProvider (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
+  forEach (:0)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
+  e (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
+[ERROR - 2018-02-03T18:57:35.528Z] WebElementLocator - _handleLocateCommand - Element(s) NOT Found: GAVE UP. Search Stop Time: 1517684255477
+[INFO  - 2018-02-03T18:57:39.337Z] GhostDriver - Main - running on port 41513
+[INFO  - 2018-02-03T18:57:39.876Z] Session [1b68a980-0914-11e8-9fd1-eb33b6b894d4] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-02-03T18:57:39.876Z] Session [1b68a980-0914-11e8-9fd1-eb33b6b894d4] - page.customHeaders:  - {}
+[INFO  - 2018-02-03T18:57:39.877Z] Session [1b68a980-0914-11e8-9fd1-eb33b6b894d4] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-03T18:57:39.878Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 1b68a980-0914-11e8-9fd1-eb33b6b894d4
+[ERROR - 2018-02-03T18:57:48.903Z] Session [1b68a980-0914-11e8-9fd1-eb33b6b894d4] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2018-02-03T18:57:48.904Z] Session [1b68a980-0914-11e8-9fd1-eb33b6b894d4] - page.onError - stack:
+  request (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  fetchChecksum (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  initProvider (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  forEach (:0)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  e (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+[ERROR - 2018-02-03T18:57:51.580Z] Session [1b68a980-0914-11e8-9fd1-eb33b6b894d4] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2018-02-03T18:57:51.580Z] Session [1b68a980-0914-11e8-9fd1-eb33b6b894d4] - page.onError - stack:
+  canEmit (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  emitEntity (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  propertyLoad (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  map (:0)
+  updateProperties (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initStore (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initPropertyTab (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  e (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+[ERROR - 2018-02-03T18:57:54.553Z] Session [1b68a980-0914-11e8-9fd1-eb33b6b894d4] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2018-02-03T18:57:54.553Z] Session [1b68a980-0914-11e8-9fd1-eb33b6b894d4] - page.onError - stack:
+  canEmit (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  emitEntity (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  propertyLoad (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  map (:0)
+  updateProperties (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initStore (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initPropertyTab (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  e (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+[INFO  - 2018-02-03T18:57:57.053Z] ShutdownReqHand - _handle - About to shutdown

@@ -18,9 +18,10 @@ Scenario:	Search and save matching property details
 
 Scenario: Find Agents
 	Given I go to the page "https://propertyfinder.ae"
-	And I wait for 7 seconds
+	And I maximize the browser window
+	And I wait for 3 seconds
 	And I click on the Find Agent link
-	And I wait for 5 seconds
+	And I wait for 3 seconds
 	And I click on dropdown with visible text Languages
 	And I select Hindi from the languages dropdown
 	And I click on dropdown with visible text Hindi
@@ -30,7 +31,6 @@ Scenario: Find Agents
 	And I click on the Find Agent button
 	And I wait for 3 seconds
 	And I capture the matching agents count
-	And I maximize the browser window
 	And I wait for 3 seconds
 	And I select India from the Nationality dropdown
 	And I wait for 3 seconds
@@ -40,6 +40,8 @@ Scenario: Find Agents
 
 Scenario: Capture Agents Details
 	Given I go to the page "https://propertyfinder.ae"
+	And I maximize the browser window
+	And I wait for 2 seconds
 	And I click on the Find Agent link
 	And I wait for 3 seconds
 	Then I click on the first agent on the page

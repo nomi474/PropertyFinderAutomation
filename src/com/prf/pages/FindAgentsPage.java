@@ -20,6 +20,7 @@ public class FindAgentsPage {
 	int totalAgentsCount = 0;
 	int countryAgentsCount = 0;
 	CommonFeatures cf;
+	Properties p;
 	
 	/** Find button on the 'Find Agents' page. */
 	public static final String FIND_AGENT_BUTTON = "button.button.button-fullheight.button-connectedright.button-uppercase";
@@ -44,8 +45,17 @@ public class FindAgentsPage {
 	 * @param lang
 	 */
 	public void selectLanguageDropdown(String lang) {
-
-			 driver.findElement(By.xpath("//div[4]/div/div[2]//*[contains(text(), '" + lang + "')]")).click();
+		p = new Properties();
+		try {
+	    	FileInputStream fi = new FileInputStream("C:\\PropertyFinder\\global.properties");
+			p.load(fi);
+	    } catch (IOException ioe){
+	    		System.err.println(ioe.getMessage());
+	    }
+		
+		if(!(p.getProperty("browser").contains("phantom"))){
+			driver.findElement(By.xpath("//div[4]/div/div[2]//*[contains(text(), '" + lang + "')]")).click();
+		}
 	}
 
 	/**
@@ -66,8 +76,8 @@ public class FindAgentsPage {
 	}
 
 	public void selectNationality(){
-		//clears browser cache
-		driver.manage().deleteAllCookies();
+		Dimension d = new Dimension(1920, 1080);
+		driver.manage().window().setSize(d);
 		driver.findElement(By.cssSelector(CLICK_NATIONALITY_DROPDOWN)).click();
 		driver.findElement(By.cssSelector(SELECT_NATIONALITY_INDIA)).click();
 	}
@@ -85,7 +95,6 @@ public class FindAgentsPage {
 	}
 	
 	/**
-	 * 
 	 * @param lang
 	 */
 	private void chooseLanguage(String lang) {

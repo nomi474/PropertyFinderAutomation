@@ -31,25 +31,24 @@ public class Navigation{
 	AgentDetailsPage ad;
 
 	public Navigation() {
-		Properties p=new Properties();
+		Properties p = new Properties();
 		try {
-	    	FileInputStream fi=new FileInputStream("C:\\PropertyFinder\\global.properties");
+	    	FileInputStream fi = new FileInputStream("C:\\PropertyFinder\\global.properties");
 			p.load(fi);
-	    	} catch (IOException ioe){
+	    } catch (IOException ioe){
 	    		System.err.println(ioe.getMessage());
-	    	}
-			if(p.getProperty("browser").contains("firefox"))
-			{
-				System.setProperty("webdriver.gecko.driver", "C:\\PropertyFinder\\geckodriver.exe");
-				driver = new FirefoxDriver();
-			} else if (p.getProperty("browser").contains("chrome")){
-				System.setProperty("webdriver.chrome.driver", "C:\\PropertyFinder\\chromedriver.exe");
-				driver = new ChromeDriver();
-			} else if (p.getProperty("browser").contains("phantom")) {
-				System.setProperty("phantomjs.binary.path","C:\\PropertyFinder\\phantomjs.exe");
-				driver = new PhantomJSDriver();
-			}
+	    }
+		if(p.getProperty("browser").contains("firefox")){
+			System.setProperty("webdriver.gecko.driver", "C:\\PropertyFinder\\geckodriver.exe");
+			driver = new FirefoxDriver();
+		} else if (p.getProperty("browser").contains("chrome")){
+			System.setProperty("webdriver.chrome.driver", "C:\\PropertyFinder\\chromedriver.exe");
+			driver = new ChromeDriver();
+		} else if (p.getProperty("browser").contains("phantom")) {
+			System.setProperty("phantomjs.binary.path","C:\\PropertyFinder\\phantomjs.exe");
+			driver = new PhantomJSDriver();
 		}
+	}
 	
 	@After
 	public void embedScreenshot(Scenario scenario) throws Exception {
@@ -79,6 +78,7 @@ public class Navigation{
 	
 	@And("^I maximize the browser window$")
 	public void maximizeWindow(){
+		cf = new CommonFeatures(driver);
 		cf.maximizeBrowserWindow();
 	}
 		
@@ -126,7 +126,6 @@ public class Navigation{
 	
 	@And("^I click on the Find Agent link$")
 	public void goToFindAgentsPage(){
-		cf = new CommonFeatures(driver);
 		cf.launchFindAgentsPage();
 	}
 	
