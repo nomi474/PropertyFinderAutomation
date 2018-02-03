@@ -63,15 +63,15 @@ public class Navigation{
 		cf.maximizeBrowserWindow();
 	}
 		
-	@And("^I select ([^\"]*) from dropdown$")
-	public void selectTransactionType(String transactionType){
+	@And("^I select BUY from dropdown$")
+	public void selectTransactionType(){
 		sp = new  SearchPropertyPage(driver);
-		sp.setTransactionType(transactionType);
+		sp.selectBuyAsTransactionType();
 	}
 	
-	@And("^I select ([^\"]*) from Property type dropdown$")
-	public void selectPropertyType(String propertyType){
-		sp.setPropertyType(propertyType);
+	@And("^I select Villa from Property type dropdown$")
+	public void selectPropertyType(){
+		sp.setVillaAsPropertyType();
 	}
 	
 	@And("^I enter ([^\"]*) for the location$")
@@ -79,14 +79,14 @@ public class Navigation{
 		sp.setLocationName(location);
 	}
 	
-	@And("^I select ([^\"]*) for Min bed dropdown$")
-	public void selectMinBeds(String minBeds){
-		sp.setMinBeds(minBeds);
+	@And("^I select 3 Beds for Min bed dropdown$")
+	public void selectMinBeds(){
+		sp.setMinBeds();
 	}
 	
-	@And("^I select ([^\"]*) for Max bed dropdown$")
-	public void selectMaxBeds(String maxBeds){
-		sp.setMaxBeds(maxBeds);
+	@And("^I select 7 Beds for Max bed dropdown$")
+	public void selectMaxBeds(){
+		sp.setMaxBeds();
 	}
 	
 	@And("^I click on the Find property button$")

@@ -14,18 +14,40 @@ public class AgentDetailsPage {
 	CommonFeatures cf;
 	StringBuffer buffer;
 	
+	/** Agent Name from the Agent Details page.*/
 	public static final String AGENT_NAME = "h1.title.title-size1.bioinfo_name";
-	public static final String AGENT_NATIONALITY = "div.bioinfo_personal > div > div > p:nth-child(1) > span:nth-child(2)";
-	public static final String AGENT_LANGUAGES = "div.bioinfo_personal > div > div > p:nth-child(2) > span:nth-child(2)";
-	public static final String AGENT_LICENSE_NUM = "div.pane_section.pane_section-style1 > div > div:nth-child(1) > p:nth-child(2) > span:nth-child(2)";
-	public static final String AGENT_ABOUT_ME_INFO = "div > div.tab_content.tab_content-size1.tab_content-active";
-	public static final String AGENT_PHONE_NUM = "a.button.pane_button > span.button_text.button_text-value.button_phone-ltr";
-	public static final String AGENT_COMPANY_NAME = "div.brokerthumbnail_text > p.text.text-size1";
-	public static final String AGENT_EXPERIENCE = "div.pane_section.pane_section-style1 > div > div:nth-child(1) > p:nth-child(3) > span:nth-child(2)";
-	public static final String AGENT_LISTINGS = "p:nth-child(1) > span:nth-child(2) > a.link";
-	public static final String AGENT_LINKEDIN_URL = "p:nth-child(4) > span:nth-child(2) > a.link";
-	public static final String TOGGLE_LANGUAGE_TO_ARABIC  = "a.globalswitch_langlink.globalswitch_langlink-ar";
 	
+	/** Agent Nationality from the Agent Details page.*/
+	public static final String AGENT_NATIONALITY = "div.bioinfo_personal > div > div > p:nth-child(1) > span:nth-child(2)";
+	
+	/** Agent Languages from the Agent Details page.*/
+	public static final String AGENT_LANGUAGES = "div.bioinfo_personal > div > div > p:nth-child(2) > span:nth-child(2)";
+	
+	/** Agent License Number from the Agent Details page.*/
+	public static final String AGENT_LICENSE_NUM = "div.pane_section.pane_section-style1 > div > div:nth-child(1) > p:nth-child(2) > span:nth-child(2)";
+	
+	/** About me info from the Agent Details page.*/
+	public static final String AGENT_ABOUT_ME_INFO = "div > div.tab_content.tab_content-size1.tab_content-active";
+	
+	/** Contact phone number from the Agent Details page.*/
+	public static final String AGENT_PHONE_NUM = "a.button.pane_button > span.button_text.button_text-value.button_phone-ltr";
+	
+	/** Company name from the Agent Details page.*/
+	public static final String AGENT_COMPANY_NAME = "div.brokerthumbnail_text > p.text.text-size1";
+	
+	/** Agent experience from the Agent Details page.*/
+	public static final String AGENT_EXPERIENCE = "div.pane_section.pane_section-style1 > div > div:nth-child(1) > p:nth-child(3) > span:nth-child(2)";
+	
+	/** Agent listings from the Agent Details page.*/
+	public static final String AGENT_LISTINGS = "p:nth-child(1) > span:nth-child(2) > a.link";
+	
+	/** Agent LinkendIn URL from the Agent Details page.*/
+	public static final String AGENT_LINKEDIN_URL = "p:nth-child(4) > span:nth-child(2) > a.link";
+	
+	/**
+	 * 
+	 * @param driver
+	 */
 	public AgentDetailsPage(WebDriver driver){
 		this.driver = driver;
 	}
@@ -64,11 +86,13 @@ public class AgentDetailsPage {
 
 	public void saveAboutMeInfo(){
 		String aboutMe = driver.findElement(By.cssSelector(AGENT_ABOUT_ME_INFO)).getText();
+		buffer.append(System.getProperty("line.separator"));
 		buffer.append("About me info: "); 
 		buffer.append(System.getProperty("line.separator"));
 		buffer.append("==============");
 		buffer.append(System.getProperty("line.separator"));
 		buffer.append(aboutMe);
+		buffer.append(System.getProperty("line.separator"));
 		buffer.append(System.getProperty("line.separator"));
 	}
 
@@ -118,6 +142,6 @@ public class AgentDetailsPage {
 	}
 
 	public void toggleLanguage(){
-		driver.findElement(By.cssSelector(TOGGLE_LANGUAGE_TO_ARABIC)).click();
+		driver.findElement(By.cssSelector(CommonFeatures.TOGGLE_LANGUAGE_TO_ARABIC)).click();
 	}
 }

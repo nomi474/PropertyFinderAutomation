@@ -16,12 +16,23 @@ public class CommonFeatures {
 	
 	WebDriver driver;	
 	
+	/** Link for toggling language from English to Arabic.*/
+	public static final String TOGGLE_LANGUAGE_TO_ARABIC  = "a.globalswitch_langlink.globalswitch_langlink-ar";
+	
+	/**
+	 * 
+	 * @param driver
+	 */
 	public  CommonFeatures(WebDriver driver){
 		this.driver = driver;
 	}
 	
+	/**
+	 * 
+	 * @param fileName
+	 * Takes the screenshot of the current page and saves it into the filename provided.
+	 */
 	public void captureScreenshot(String fileName) {
-
 		File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		try {
 			 // now copy the  screenshot to desired location using copyFile //method
@@ -33,22 +44,25 @@ public class CommonFeatures {
 			  System.out.println(e.getMessage());
 			 
 			 }
-
 	}
 	
 	public void maximizeBrowserWindow(){
 		driver.manage().window().maximize();
 	}
 	
+	/**
+	 * 
+	 * @param seconds
+	 */
 	public void implicitWait(int seconds){
     	driver.manage().timeouts().implicitlyWait(seconds, TimeUnit.SECONDS);
 	}
 	
-	public void waitForElementToAppear(By locator){
-		WebDriverWait wait = new WebDriverWait(driver, 10);
-		//wait.until(ExpectedConditions.elementToBeClickable(locator));
-	}	
-
+	/**
+	 * 
+	 * @param by
+	 * @return boolean
+	 */
     public boolean isElementPresent(By by) {
         try {
             driver.findElement(by);

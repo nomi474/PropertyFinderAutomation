@@ -22,20 +22,61 @@ public class SearchPropertyPage {
 	String totalPriceOnPaymentPage;
 	CommonFeatures cf;
 	
+	/** Transaction Type dropdown on Search Property page. */
+	public static final String CLICK_TRANSACTION_DROPDOWN = "form#search-form-property div.category-select.pure-u-1-1.pure-u-sm-1-4.pure-push > div > button[type=\"button\"] > span";
+	
+	/** Buy option from Transaction Type dropdown*/
+	public static final String SELECT_BUY_TRANSACTION = "form#search-form-property div.category-select.pure-u-1-1.pure-u-sm-1-4.pure-push > div > div > ul > li:nth-child(2)";
+	
+	/** Property Type dropdown on Search Property page.*/
+	public static final String CLICK_PROPERTY_DROPDOWN = "form#search-form-property div.settings.minimized > div > div:nth-child(1) > div > button[type=\"button\"] > span";
+	
+	/** Villa option from Property Type dropdown */
+	public static final String SELECT_VILLA_PROPERTY_TYPE = "form#search-form-property div.settings.minimized > div > div:nth-child(1) > div > div > ul > li:nth-child(3)";
+	
+	/** Min beds dropdown on Search Property page.*/
+	public static final String CLICK_MIN_BEDS_DROPDOWN = "div#bedroom_group div:nth-child(1) > div > button[type='button'] > span";
+	
+	/** 3 beds option from Min beds dropdown*/
+	public static final String SELECT_MIN_3_BEDS = "div#bedroom_group div:nth-child(1) > div > div > ul > li:nth-child(5)";
+	
+	/** Max beds dropdown on Search Property page.*/
+	public static final String CLICK_MAX_BEDS_DROPDOWN = "div#bedroom_group div:nth-child(2) > div > button[type='button'] > span";
+	
+	/** 7 beds option from Max beds dropdown*/
+	public static final String SELECT_MAX_7_BEDS = "div#bedroom_group div:nth-child(2) > div > div > ul > li:nth-child(9)";
+	
+	/** Find button on Find Property page */
+	public static final String  CLICK_FIND_PROPERTY_BUTTON= "button[type=\"submit\"]";
+	
+	/** Titles list for search results for Property search */
+	public static final String PROPERTY_TITLES_LIST = "section#serp li > div.property-content > h2 > a > bdi";
+	
+	/** Prices list for search results for Property search*/
+	public static final String PROPERTY_PRICES_LIST = "section#serp li > div.property-content > div.info-area > div > span.price";
+	
+	/**
+	 * 
+	 * @param driver
+	 */
 	public SearchPropertyPage(WebDriver driver){
 		this.driver = driver;
 	}
 	
-	public void setTransactionType(String tranType){
-		driver.findElement(By.cssSelector("form#search-form-property div.category-select.pure-u-1-1.pure-u-sm-1-4.pure-push > div > button[type=\"button\"] > span")).click();
-		driver.findElement(By.cssSelector("form#search-form-property div.category-select.pure-u-1-1.pure-u-sm-1-4.pure-push > div > div > ul > li:nth-child(2)")).click();
+	public void selectBuyAsTransactionType(){
+		driver.findElement(By.cssSelector(CLICK_TRANSACTION_DROPDOWN)).click();
+		driver.findElement(By.cssSelector(SELECT_BUY_TRANSACTION)).click();
 	}
 	
-	public void setPropertyType(String propType){
-		driver.findElement(By.cssSelector("form#search-form-property div.settings.minimized > div > div:nth-child(1) > div > button[type=\"button\"] > span")).click();
-		driver.findElement(By.cssSelector("form#search-form-property div.settings.minimized > div > div:nth-child(1) > div > div > ul > li:nth-child(3)")).click();
+	public void setVillaAsPropertyType(){
+		driver.findElement(By.cssSelector(CLICK_PROPERTY_DROPDOWN)).click();
+		driver.findElement(By.cssSelector(SELECT_VILLA_PROPERTY_TYPE)).click();
 	}
 	
+	/**
+	 * 
+	 * @param location
+	 */
 	public void setLocationName(String location){
 		WebElement property = driver.findElement(By.name("q"));
 		property.clear();
@@ -43,26 +84,24 @@ public class SearchPropertyPage {
 		property.sendKeys(Keys.TAB);
 	}
 	
-	public void setMinBeds(String minBeds){
-		driver.findElement(By.cssSelector("div#bedroom_group div:nth-child(1) > div > button[type='button'] > span")).click();
-		WebElement min = driver.findElement(By.cssSelector("div#bedroom_group div:nth-child(1) > div > div > ul > li:nth-child(5)"));
-		min.click();
+	
+	public void setMinBeds(){
+		driver.findElement(By.cssSelector(CLICK_MIN_BEDS_DROPDOWN)).click();
+		driver.findElement(By.cssSelector(SELECT_MIN_3_BEDS)).click();
 	}
 	
-	public void setMaxBeds(String maxBeds){
-		driver.findElement(By.cssSelector("div#bedroom_group div:nth-child(2) > div > button[type='button'] > span")).click();
-		WebElement max = driver.findElement(By.cssSelector("div#bedroom_group div:nth-child(2) > div > div > ul > li:nth-child(9)"));
-		max.click();
+	public void setMaxBeds(){
+		driver.findElement(By.cssSelector(CLICK_MAX_BEDS_DROPDOWN)).click();
+		driver.findElement(By.cssSelector(SELECT_MAX_7_BEDS)).click();
 	}
 	
 	public void clickFindButton(){
-		driver.findElement(By.cssSelector("button[type=\"submit\"]")).click();
-		//driver.findElement(By.xpath("//button[@type='submit']/div[@class='text'][text()='Find']")).click();
+		driver.findElement(By.cssSelector(CLICK_FIND_PROPERTY_BUTTON)).click();
 	}
 
 	public void savePropertySearchResults() throws IOException{
-		List<WebElement> properties = new ArrayList<WebElement>(driver.findElements(By.cssSelector("section#serp li > div.property-content > h2 > a > bdi")));
-		List<WebElement> prices = new ArrayList<WebElement>(driver.findElements(By.cssSelector("section#serp li > div.property-content > div.info-area > div > span.price")));
+		List<WebElement> properties = new ArrayList<WebElement>(driver.findElements(By.cssSelector(PROPERTY_TITLES_LIST)));
+		List<WebElement> prices = new ArrayList<WebElement>(driver.findElements(By.cssSelector(PROPERTY_PRICES_LIST)));
 	    List<String> titles = new ArrayList<String>();
 	    List<String> values = new ArrayList<String>();
 	    BufferedWriter writer = new BufferedWriter(new FileWriter("C://PropertyFinder//properties.csv"));
@@ -80,5 +119,4 @@ public class SearchPropertyPage {
 		}
 	    writer.close();
 	}
-	
 }

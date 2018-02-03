@@ -313,7 +313,7 @@ formatter.match({
   "location": "Navigation.goToLandingPage(String)"
 });
 formatter.result({
-  "duration": 19217396097,
+  "duration": 20942266196,
   "status": "passed"
 });
 formatter.match({
@@ -326,14 +326,14 @@ formatter.match({
   "location": "Navigation.waitForTime(int)"
 });
 formatter.result({
-  "duration": 16910230,
+  "duration": 25948900,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.maximizeWindow()"
 });
 formatter.result({
-  "duration": 80322702,
+  "duration": 41924463,
   "status": "passed"
 });
 formatter.match({
@@ -346,7 +346,7 @@ formatter.match({
   "location": "Navigation.waitForTime(int)"
 });
 formatter.result({
-  "duration": 16127118,
+  "duration": 4024447,
   "status": "passed"
 });
 formatter.match({
@@ -359,7 +359,7 @@ formatter.match({
   "location": "Navigation.selectTransactionType(String)"
 });
 formatter.result({
-  "duration": 1014581340,
+  "duration": 189460084,
   "status": "passed"
 });
 formatter.match({
@@ -372,7 +372,7 @@ formatter.match({
   "location": "Navigation.selectPropertyType(String)"
 });
 formatter.result({
-  "duration": 571393143,
+  "duration": 159309404,
   "status": "passed"
 });
 formatter.match({
@@ -385,7 +385,7 @@ formatter.match({
   "location": "Navigation.enterLocationName(String)"
 });
 formatter.result({
-  "duration": 279714347,
+  "duration": 298374800,
   "status": "passed"
 });
 formatter.match({
@@ -398,7 +398,7 @@ formatter.match({
   "location": "Navigation.selectMinBeds(String)"
 });
 formatter.result({
-  "duration": 517050452,
+  "duration": 147952955,
   "status": "passed"
 });
 formatter.match({
@@ -411,14 +411,14 @@ formatter.match({
   "location": "Navigation.selectMaxBeds(String)"
 });
 formatter.result({
-  "duration": 534542904,
+  "duration": 142028063,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.pressButton()"
 });
 formatter.result({
-  "duration": 4852032823,
+  "duration": 1501950445,
   "status": "passed"
 });
 formatter.match({
@@ -431,14 +431,14 @@ formatter.match({
   "location": "Navigation.waitForTime(int)"
 });
 formatter.result({
-  "duration": 7851114,
+  "duration": 17954675,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.logResults()"
 });
 formatter.result({
-  "duration": 275836122,
+  "duration": 376112612,
   "status": "passed"
 });
 formatter.match({
@@ -451,7 +451,7 @@ formatter.match({
   "location": "Navigation.goToLandingPage(String)"
 });
 formatter.result({
-  "duration": 3984208438,
+  "duration": 3682010525,
   "status": "passed"
 });
 formatter.match({
@@ -464,14 +464,14 @@ formatter.match({
   "location": "Navigation.waitForTime(int)"
 });
 formatter.result({
-  "duration": 8032892,
+  "duration": 10205782,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.goToFindAgentsPage()"
 });
 formatter.result({
-  "duration": 2445745087,
+  "duration": 1908515959,
   "status": "passed"
 });
 formatter.match({
@@ -484,7 +484,7 @@ formatter.match({
   "location": "Navigation.waitForTime(int)"
 });
 formatter.result({
-  "duration": 12840451,
+  "duration": 12194227,
   "status": "passed"
 });
 formatter.match({
@@ -497,7 +497,7 @@ formatter.match({
   "location": "Navigation.clickLanguageDropdown(String)"
 });
 formatter.result({
-  "duration": 256625003,
+  "duration": 888890,
   "status": "passed"
 });
 formatter.match({
@@ -510,7 +510,7 @@ formatter.match({
   "location": "Navigation.addLanguage(String)"
 });
 formatter.result({
-  "duration": 294531242,
+  "duration": 90995596,
   "status": "passed"
 });
 formatter.match({
@@ -523,7 +523,7 @@ formatter.match({
   "location": "Navigation.clickLanguageDropdown(String)"
 });
 formatter.result({
-  "duration": 281597903,
+  "duration": 293333,
   "status": "passed"
 });
 formatter.match({
@@ -536,7 +536,7 @@ formatter.match({
   "location": "Navigation.addLanguage(String)"
 });
 formatter.result({
-  "duration": 264886340,
+  "duration": 66946252,
   "status": "passed"
 });
 formatter.match({
@@ -549,7 +549,7 @@ formatter.match({
   "location": "Navigation.clickLanguageDropdown(String)"
 });
 formatter.result({
-  "duration": 256804114,
+  "duration": 262666,
   "status": "passed"
 });
 formatter.match({
@@ -562,14 +562,14 @@ formatter.match({
   "location": "Navigation.addLanguage(String)"
 });
 formatter.result({
-  "duration": 250981001,
+  "duration": 66355585,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.pressFindAgentButton()"
 });
 formatter.result({
-  "duration": 2611225161,
+  "duration": 915053740,
   "status": "passed"
 });
 formatter.match({
@@ -582,21 +582,21 @@ formatter.match({
   "location": "Navigation.waitForTime(int)"
 });
 formatter.result({
-  "duration": 9228004,
+  "duration": 11454672,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.captureAgentsCount()"
 });
 formatter.result({
-  "duration": 37056016,
+  "duration": 84945816,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.maximizeWindow()"
 });
 formatter.result({
-  "duration": 3517182452,
+  "duration": 4531113,
   "status": "passed"
 });
 formatter.match({
@@ -609,14 +609,14 @@ formatter.match({
   "location": "Navigation.waitForTime(int)"
 });
 formatter.result({
-  "duration": 14760895,
+  "duration": 5362669,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.addNationality()"
 });
 formatter.result({
-  "duration": 1118297831,
+  "duration": 42666,
   "status": "passed"
 });
 formatter.match({
@@ -629,21 +629,21 @@ formatter.match({
   "location": "Navigation.waitForTime(int)"
 });
 formatter.result({
-  "duration": 4561780,
+  "duration": 5421335,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.captureAgentsCountByNationality()"
 });
 formatter.result({
-  "duration": 264655229,
+  "duration": 37561795,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.compareNumOfAgents()"
 });
 formatter.result({
-  "duration": 2384890,
+  "duration": 28000,
   "status": "passed"
 });
 formatter.match({
@@ -656,14 +656,14 @@ formatter.match({
   "location": "Navigation.goToLandingPage(String)"
 });
 formatter.result({
-  "duration": 4042321796,
+  "duration": 2066101807,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.goToFindAgentsPage()"
 });
 formatter.result({
-  "duration": 1392262842,
+  "duration": 1933303971,
   "status": "passed"
 });
 formatter.match({
@@ -676,14 +676,14 @@ formatter.match({
   "location": "Navigation.waitForTime(int)"
 });
 formatter.result({
-  "duration": 10555561,
+  "duration": 13407117,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.chooseFirstAgent()"
 });
 formatter.result({
-  "duration": 1996643554,
+  "duration": 1978595546,
   "status": "passed"
 });
 formatter.match({
@@ -696,49 +696,49 @@ formatter.match({
   "location": "Navigation.waitForTime(int)"
 });
 formatter.result({
-  "duration": 4633780,
+  "duration": 6512447,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.captureAgentName()"
 });
 formatter.result({
-  "duration": 52020468,
+  "duration": 49286688,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.captureAgentNationality()"
 });
 formatter.result({
-  "duration": 32488459,
+  "duration": 37566683,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.captureAgentLanguages()"
 });
 formatter.result({
-  "duration": 68816920,
+  "duration": 37392906,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.captureAgentLicenseNum()"
 });
 formatter.result({
-  "duration": 20839120,
+  "duration": 36390683,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.goToAboutMeTab()"
 });
 formatter.result({
-  "duration": 56509358,
+  "duration": 116470719,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.captureAboutMeInfo()"
 });
 formatter.result({
-  "duration": 29531568,
+  "duration": 39018684,
   "status": "passed"
 });
 formatter.match({
@@ -751,56 +751,56 @@ formatter.match({
   "location": "Navigation.waitForTime(int)"
 });
 formatter.result({
-  "duration": 12614227,
+  "duration": 3994224,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.clickCallAgentButton()"
 });
 formatter.result({
-  "duration": 346900598,
+  "duration": 68023142,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.captureAgentPhoneNum()"
 });
 formatter.result({
-  "duration": 20318676,
+  "duration": 32786681,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.captureAgentCompanyName()"
 });
 formatter.result({
-  "duration": 16003118,
+  "duration": 36763127,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.captureAgentExperience()"
 });
 formatter.result({
-  "duration": 18237342,
+  "duration": 37761351,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.captureAgentNumOfListings()"
 });
 formatter.result({
-  "duration": 16405341,
+  "duration": 47088910,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.captureAgentLinkedInUrl()"
 });
 formatter.result({
-  "duration": 52814690,
+  "duration": 33945793,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.logAgentInfo()"
 });
 formatter.result({
-  "duration": 2730668,
+  "duration": 920445,
   "status": "passed"
 });
 formatter.match({
@@ -813,14 +813,14 @@ formatter.match({
   "location": "Navigation.takeScreenshot(String)"
 });
 formatter.result({
-  "duration": 201467200,
+  "duration": 290061907,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.changeLanguage()"
 });
 formatter.result({
-  "duration": 2047962243,
+  "duration": 2870915054,
   "status": "passed"
 });
 formatter.match({
@@ -833,7 +833,7 @@ formatter.match({
   "location": "Navigation.takeScreenshot(String)"
 });
 formatter.result({
-  "duration": 195188976,
+  "duration": 332659259,
   "status": "passed"
 });
 });
