@@ -55,6 +55,7 @@ Scenario:	Search and save matching property details
 	And I capture Agent About Me information
 	And I wait for 2 seconds
 	And I click on Call agent button
+	And I wait for 1 seconds
 	And I capture Agent Phone Number
 	And I capture Agent Company Name
 	And I capture Agent Experience

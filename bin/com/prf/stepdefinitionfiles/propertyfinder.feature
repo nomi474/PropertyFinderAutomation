@@ -21,7 +21,7 @@ Scenario:	Search and save matching property details
 	And I write search results in a file
 	
 #Scenario: Find Agents
-	Given I go to the page "https://www.propertyfinder.ae"
+	Given I go to the page "https://propertyfinder.ae"
 	And I wait for 3 seconds
 	And I click on the Find Agent link
 	And I wait for 5 seconds
@@ -42,7 +42,7 @@ Scenario:	Search and save matching property details
 	And I verify that the new count is less than the previous count
 
 #Scenario: Capture Agents Details
-	Given I go to the page "http://propertyfinder.ae"
+	Given I go to the page "https://propertyfinder.ae"
 	And I click on the Find Agent link
 	And I wait for 3 seconds
 	Then I click on the first agent on the page
@@ -55,6 +55,7 @@ Scenario:	Search and save matching property details
 	And I capture Agent About Me information
 	And I wait for 2 seconds
 	And I click on Call agent button
+	And I wait for 1 seconds
 	And I capture Agent Phone Number
 	And I capture Agent Company Name
 	And I capture Agent Experience

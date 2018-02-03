@@ -14,6 +14,9 @@ public class AgentDetailsPage {
 	CommonFeatures cf;
 	StringBuffer buffer;
 	
+	/** Brief info card of the very first agent on the Search results page for the agent. */
+	public static final String FIRST_AGENT_IMAGE = "a:nth-child(1) > div > div.tile_images > img";
+	
 	/** Agent Name from the Agent Details page.*/
 	public static final String AGENT_NAME = "h1.title.title-size1.bioinfo_name";
 	
@@ -28,6 +31,9 @@ public class AgentDetailsPage {
 	
 	/** About me info from the Agent Details page.*/
 	public static final String AGENT_ABOUT_ME_INFO = "div > div.tab_content.tab_content-size1.tab_content-active";
+	
+	/** Call Agent button on the Agent Details page.*/
+	public static final String CALL_AGENT_BUTTON = "a.button.pane_button > span.button_text.button_text-label";
 	
 	/** Contact phone number from the Agent Details page.*/
 	public static final String AGENT_PHONE_NUM = "a.button.pane_button > span.button_text.button_text-value.button_phone-ltr";
@@ -51,8 +57,9 @@ public class AgentDetailsPage {
 	public AgentDetailsPage(WebDriver driver){
 		this.driver = driver;
 	}
+	
 	public void clickFirstAgent(){
-		driver.findElement(By.cssSelector("a:nth-child(1) > div > div.tile_images > img")).click();;
+		driver.findElement(By.cssSelector(FIRST_AGENT_IMAGE)).click();;
 	}
 
 	public void saveAgentName(){
@@ -86,19 +93,16 @@ public class AgentDetailsPage {
 
 	public void saveAboutMeInfo(){
 		String aboutMe = driver.findElement(By.cssSelector(AGENT_ABOUT_ME_INFO)).getText();
-		buffer.append(System.getProperty("line.separator"));
 		buffer.append("About me info: "); 
 		buffer.append(System.getProperty("line.separator"));
 		buffer.append("==============");
 		buffer.append(System.getProperty("line.separator"));
 		buffer.append(aboutMe);
 		buffer.append(System.getProperty("line.separator"));
-		buffer.append(System.getProperty("line.separator"));
 	}
 
 	public void clickCallAgentButton(){
-		//driver.findElement(By.linkText("Call agent")).click();
-		driver.findElement(By.cssSelector("a.button.pane_button > span.button_text.button_text-label")).click();
+		driver.findElement(By.cssSelector(CALL_AGENT_BUTTON)).click();
 	}
 
 	public void saveAgentPhoneNum(){

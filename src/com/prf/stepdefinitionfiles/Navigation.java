@@ -4,7 +4,10 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
@@ -14,9 +17,10 @@ import com.prf.pages.SearchPropertyPage;
 import com.prf.pages.FindAgentsPage;
 import com.prf.pages.AgentDetailsPage;
 
+import cucumber.api.Scenario;
+import cucumber.api.java.After;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
-import cucumber.api.java.en.Then;
 
 public class Navigation{
 	
@@ -26,13 +30,13 @@ public class Navigation{
 	CommonFeatures cf;
 	AgentDetailsPage ad;
 
-	public Navigation(){
+	public Navigation() {
 		Properties p=new Properties();
 		try {
 	    	FileInputStream fi=new FileInputStream("C:\\PropertyFinder\\global.properties");
 			p.load(fi);
 	    	} catch (IOException ioe){
-	    		
+	    		System.err.println(ioe.getMessage());
 	    	}
 			if(p.getProperty("browser").contains("firefox"))
 			{
@@ -46,6 +50,21 @@ public class Navigation{
 				driver = new PhantomJSDriver();
 			}
 		}
+	
+	@After
+	public void embedScreenshot(Scenario scenario) throws Exception {
+	    if (scenario.isFailed()) {
+	        try 
+	        {
+	            byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+	            scenario.embed(screenshot, "image/png");
+	        } catch (WebDriverException wde) {
+	            System.err.println(wde.getMessage());
+	        } catch (ClassCastException cce) {
+	            cce.printStackTrace();
+	        }
+	    }
+	} 
 	
 	@Given("^I go to the page \"([^\"]*)\"$")
 	public void goToLandingPage(String url){
