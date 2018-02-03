@@ -19,16 +19,21 @@ public class CommonFeatures {
 	/** Link for toggling language from English to Arabic.*/
 	public static final String TOGGLE_LANGUAGE_TO_ARABIC  = "a.globalswitch_langlink.globalswitch_langlink-ar";
 	
+	/** Find Agent link at the tope of the page. */
+	public static final String FIND_AGENT_LINK = "header#header nav > ul > li:nth-child(4) > a.js-find-agent";
+	
 	/**
-	 * 
 	 * @param driver
 	 */
 	public  CommonFeatures(WebDriver driver){
 		this.driver = driver;
 	}
 	
+	public void launchFindAgentsPage(){
+		driver.findElement(By.cssSelector(FIND_AGENT_LINK)).click();
+	}
+	
 	/**
-	 * 
 	 * @param fileName
 	 * Takes the screenshot of the current page and saves it into the filename provided.
 	 */
@@ -51,7 +56,6 @@ public class CommonFeatures {
 	}
 	
 	/**
-	 * 
 	 * @param seconds
 	 */
 	public void implicitWait(int seconds){
@@ -59,7 +63,6 @@ public class CommonFeatures {
 	}
 	
 	/**
-	 * 
 	 * @param by
 	 * @return boolean
 	 */
@@ -73,7 +76,6 @@ public class CommonFeatures {
     }
     
     public void closeWebPage() {
-    		driver.close();
     		driver.quit();
     }
 }

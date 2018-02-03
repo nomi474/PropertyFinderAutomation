@@ -126,12 +126,13 @@ public class Navigation{
 	
 	@And("^I click on the Find Agent link$")
 	public void goToFindAgentsPage(){
-		fa = new FindAgentsPage(driver);
-		fa.launchFindAgentsPage();
+		cf = new CommonFeatures(driver);
+		cf.launchFindAgentsPage();
 	}
 	
 	@And("^I click on dropdown with visible text ([^\"]*)$")
 	public void clickLanguageDropdown(String lang){
+		fa = new FindAgentsPage(driver);
 		fa.selectLanguageDropdown(lang);
 	}
 	
@@ -247,4 +248,11 @@ public class Navigation{
 		cf=new CommonFeatures(driver);
 		cf.captureScreenshot(photo);
 	}
+	
+	@And("^I close browser window$")
+	public void closeBrowser(){
+		cf=new CommonFeatures(driver);
+		cf.closeWebPage();
+	}
+	
 }

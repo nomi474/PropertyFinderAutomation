@@ -20,9 +20,6 @@ public class FindAgentsPage {
 	int totalAgentsCount = 0;
 	int countryAgentsCount = 0;
 	CommonFeatures cf;
-
-	/** Find Agent link at the tope of the page. */
-	public static final String FIND_AGENT_LINK = "header#header nav > ul > li:nth-child(4) > a.js-find-agent";
 	
 	/** Find button on the 'Find Agents' page. */
 	public static final String FIND_AGENT_BUTTON = "button.button.button-fullheight.button-connectedright.button-uppercase";
@@ -37,19 +34,13 @@ public class FindAgentsPage {
 	public static final String SELECT_NATIONALITY_INDIA = "div.dropdown_popup.dropdown_popup-opened > div:nth-child(33)";
 	
 	/**
-	 * 
 	 * @param driver
 	 */
 	public FindAgentsPage(WebDriver driver){
 		this.driver = driver;	
 	}
 	
-	public void launchFindAgentsPage(){
-		driver.findElement(By.cssSelector(FIND_AGENT_LINK)).click();
-	}
-	
 	/**
-	 * 
 	 * @param lang
 	 */
 	public void selectLanguageDropdown(String lang) {
@@ -58,7 +49,6 @@ public class FindAgentsPage {
 	}
 
 	/**
-	 * 
 	 * @param lang
 	 */
 	public void selectLanguage(String lang){

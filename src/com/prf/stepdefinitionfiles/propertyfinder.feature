@@ -1,10 +1,5 @@
 Feature: Test various scenarios on Property Finders web site
 
-In order to search property
-As a customer
-I want to know how to search a property
-
-@tester
 Scenario:	Search and save matching property details
 	Given I go to the page "http://propertyfinder.qa"
 	And I wait for 5 seconds
@@ -19,10 +14,11 @@ Scenario:	Search and save matching property details
 	And I wait for 2 seconds
 	And I sort the properties from high to low prices
 	And I write search results in a file
+	And I close browser window
 
-#Scenario: Find Agents
+Scenario: Find Agents
 	Given I go to the page "https://propertyfinder.ae"
-	And I wait for 3 seconds
+	And I wait for 7 seconds
 	And I click on the Find Agent link
 	And I wait for 5 seconds
 	And I click on dropdown with visible text Languages
@@ -40,8 +36,9 @@ Scenario:	Search and save matching property details
 	And I wait for 3 seconds
 	And I capture the matching agents count by Nationality
 	And I verify that the new count is less than the previous count
+	And I close browser window
 
-#Scenario: Capture Agents Details
+Scenario: Capture Agents Details
 	Given I go to the page "https://propertyfinder.ae"
 	And I click on the Find Agent link
 	And I wait for 3 seconds
@@ -65,3 +62,4 @@ Scenario:	Search and save matching property details
 	And I capture Screenshot of the page as AgentDetails.jpg
 	And I change language to Arabic
 	And I capture Screenshot of the page as ArabicPage.jpg
+	And I close browser window
