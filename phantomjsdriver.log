@@ -586,8 +586,8 @@ alse,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
 [INFO  - 2018-02-03T03:49:07.163Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2018-02-03T03:54:07.163Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2018-02-03T03:59:07.164Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
- [7026b2d0-088f-11e8-88fd-f1b477d88072] - page.onError - stack:
-  request (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+[INFO  - 2018-02-03T04:04:07.164Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+0a0.agent-home.js:1)
   fetchChecksum (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
   initProvider (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
   forEach (:0)
@@ -655,8 +655,8 @@ alse,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
 [INFO  - 2018-02-03T03:47:58.339Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2018-02-03T03:52:58.346Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2018-02-03T03:57:58.353Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
-[INFO  - 2018-02-03T03:20:15.756Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 274da440-0891-11e8-9a54-7514fb339daf
+[INFO  - 2018-02-03T04:02:58.359Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+- _postNewSessionCommand - New Session Created: 274da440-0891-11e8-9a54-7514fb339daf
 [ERROR - 2018-02-03T03:20:29.148Z] Session [274da440-0891-11e8-9a54-7514fb339daf] - page.onError - msg: ReferenceError: Can't find variable: Promise
 [ERROR - 2018-02-03T03:20:29.148Z] Session [274da440-0891-11e8-9a54-7514fb339daf] - page.onError - stack:
   request (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
@@ -724,3 +724,69 @@ false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
 [INFO  - 2018-02-03T03:45:15.083Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2018-02-03T03:50:15.095Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2018-02-03T03:55:15.102Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T04:00:15.109Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T04:05:15.117Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+criptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2018-02-03T03:59:18.743Z] Session [9bd56410-0896-11e8-9cf8-8dbdb355c7c3] - page.customHeaders:  - {}
+[INFO  - 2018-02-03T03:59:18.744Z] Session [9bd56410-0896-11e8-9cf8-8dbdb355c7c3] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-10-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2018-02-03T03:59:18.744Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 9bd56410-0896-11e8-9cf8-8dbdb355c7c3
+[ERROR - 2018-02-03T03:59:43.332Z] Session [9bd56410-0896-11e8-9cf8-8dbdb355c7c3] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2018-02-03T03:59:43.332Z] Session [9bd56410-0896-11e8-9cf8-8dbdb355c7c3] - page.onError - stack:
+  request (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  fetchChecksum (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  initProvider (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  forEach (:0)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  e (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+[ERROR - 2018-02-03T03:59:45.536Z] Session [9bd56410-0896-11e8-9cf8-8dbdb355c7c3] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2018-02-03T03:59:45.537Z] Session [9bd56410-0896-11e8-9cf8-8dbdb355c7c3] - page.onError - stack:
+  request (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
+  fetchChecksum (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
+  initProvider (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
+  forEach (:0)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
+  e (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
+[ERROR - 2018-02-03T03:59:48.474Z] Session [9bd56410-0896-11e8-9cf8-8dbdb355c7c3] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2018-02-03T03:59:48.475Z] Session [9bd56410-0896-11e8-9cf8-8dbdb355c7c3] - page.onError - stack:
+  request (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  fetchChecksum (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  initProvider (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  forEach (:0)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  e (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+[ERROR - 2018-02-03T03:59:50.706Z] Session [9bd56410-0896-11e8-9cf8-8dbdb355c7c3] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2018-02-03T03:59:50.707Z] Session [9bd56410-0896-11e8-9cf8-8dbdb355c7c3] - page.onError - stack:
+  canEmit (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  emitEntity (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  propertyLoad (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  map (:0)
+  updateProperties (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initStore (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initPropertyTab (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  e (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+[ERROR - 2018-02-03T03:59:53.349Z] Session [9bd56410-0896-11e8-9cf8-8dbdb355c7c3] - page.onError - msg: ReferenceError: Can't find variable: Promise
+[ERROR - 2018-02-03T03:59:53.349Z] Session [9bd56410-0896-11e8-9cf8-8dbdb355c7c3] - page.onError - stack:
+  canEmit (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  emitEntity (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  propertyLoad (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  map (:0)
+  updateProperties (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initStore (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initPropertyTab (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  e (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
+  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-page.js:1)
