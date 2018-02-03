@@ -6,7 +6,6 @@ I want to know how to search a property
 
 @tester
 Scenario:	Search and save matching property details
-#Scenario:	Search for property
 	Given I go to the page "http://propertyfinder.qa"
 	And I wait for 5 seconds
 	And I maximize the browser window
@@ -17,9 +16,10 @@ Scenario:	Search and save matching property details
 	And I select 3 Beds for Min bed dropdown
 	And I select 7 Beds for Max bed dropdown
 	And I click on the Find property button
-	And I wait for 3 seconds
+	And I wait for 2 seconds
+	And I sort the properties from high to low prices
 	And I write search results in a file
-	
+
 #Scenario: Find Agents
 	Given I go to the page "https://propertyfinder.ae"
 	And I wait for 3 seconds

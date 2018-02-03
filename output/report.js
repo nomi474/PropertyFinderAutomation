@@ -21,64 +21,63 @@ formatter.scenario({
   ]
 });
 formatter.step({
-  "comments": [
-    {
-      "line": 9,
-      "value": "#Scenario:\tSearch for property"
-    }
-  ],
-  "line": 10,
+  "line": 9,
   "name": "I go to the page \"http://propertyfinder.qa\"",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 11,
+  "line": 10,
   "name": "I wait for 5 seconds",
   "keyword": "And "
 });
 formatter.step({
-  "line": 12,
+  "line": 11,
   "name": "I maximize the browser window",
   "keyword": "And "
 });
 formatter.step({
-  "line": 13,
+  "line": 12,
   "name": "I wait for 5 seconds",
   "keyword": "And "
 });
 formatter.step({
-  "line": 14,
+  "line": 13,
   "name": "I select BUY from dropdown",
   "keyword": "And "
 });
 formatter.step({
-  "line": 15,
+  "line": 14,
   "name": "I select Villa from Property type dropdown",
   "keyword": "And "
 });
 formatter.step({
-  "line": 16,
+  "line": 15,
   "name": "I enter The Pearl for the location",
   "keyword": "And "
 });
 formatter.step({
-  "line": 17,
+  "line": 16,
   "name": "I select 3 Beds for Min bed dropdown",
   "keyword": "And "
 });
 formatter.step({
-  "line": 18,
+  "line": 17,
   "name": "I select 7 Beds for Max bed dropdown",
   "keyword": "And "
 });
 formatter.step({
-  "line": 19,
+  "line": 18,
   "name": "I click on the Find property button",
   "keyword": "And "
 });
 formatter.step({
+  "line": 19,
+  "name": "I wait for 2 seconds",
+  "keyword": "And "
+});
+formatter.step({
   "line": 20,
-  "name": "I wait for 3 seconds",
+  "name": "I sort the properties from high to low prices",
   "keyword": "And "
 });
 formatter.step({
@@ -318,7 +317,7 @@ formatter.match({
   "location": "Navigation.goToLandingPage(String)"
 });
 formatter.result({
-  "duration": 18313951250,
+  "duration": 15404416530,
   "status": "passed"
 });
 formatter.match({
@@ -331,14 +330,14 @@ formatter.match({
   "location": "Navigation.waitForTime(int)"
 });
 formatter.result({
-  "duration": 13431562,
+  "duration": 12753767,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.maximizeWindow()"
 });
 formatter.result({
-  "duration": 88914707,
+  "duration": 1190381164,
   "status": "passed"
 });
 formatter.match({
@@ -351,21 +350,21 @@ formatter.match({
   "location": "Navigation.waitForTime(int)"
 });
 formatter.result({
-  "duration": 17688897,
+  "duration": 5663995,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.selectTransactionType()"
 });
 formatter.result({
-  "duration": 1092734263,
+  "duration": 415236075,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.selectPropertyType()"
 });
 formatter.result({
-  "duration": 550978467,
+  "duration": 360759679,
   "status": "passed"
 });
 formatter.match({
@@ -378,47 +377,56 @@ formatter.match({
   "location": "Navigation.enterLocationName(String)"
 });
 formatter.result({
-  "duration": 285181016,
+  "duration": 378441441,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.selectMinBeds()"
 });
 formatter.result({
-  "duration": 549084244,
+  "duration": 176546065,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.selectMaxBeds()"
 });
 formatter.result({
-  "duration": 5354357047,
-  "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: div#bedroom_group div:nth-child(2) \u003e div \u003e div \u003e ul \u003e li:nth-child(19)\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u0027unknown\u0027, revision: \u0027unknown\u0027, time: \u0027unknown\u0027\nSystem info: host: \u0027DESKTOP-UQR0DS5\u0027, ip: \u0027192.168.1.111\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_151\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities [{moz:profile\u003dC:\\Users\\Nauman\\AppData\\Local\\Temp\\rust_mozprofile.xoqmePeG57Em, rotatable\u003dfalse, timeouts\u003d{implicit\u003d0.0, pageLoad\u003d300000.0, script\u003d30000.0}, pageLoadStrategy\u003dnormal, moz:headless\u003dfalse, platform\u003dANY, moz:accessibilityChecks\u003dfalse, acceptInsecureCerts\u003dfalse, browserVersion\u003d58.0.1, platformVersion\u003d10.0, moz:processID\u003d2144.0, browserName\u003dfirefox, javascriptEnabled\u003dtrue, platformName\u003dwindows_nt, moz:webdriverClick\u003dtrue}]\nSession ID: f947d515-f8bd-47b8-a590-cf80bc5c9987\n*** Element info: {Using\u003dcss selector, value\u003ddiv#bedroom_group div:nth-child(2) \u003e div \u003e div \u003e ul \u003e li:nth-child(19)}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:501)\r\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)\r\n\tat com.prf.pages.SearchPropertyPage.setMaxBeds(SearchPropertyPage.java:95)\r\n\tat com.prf.stepdefinitionfiles.Navigation.selectMaxBeds(Navigation.java:108)\r\n\tat ✽.And I select 7 Beds for Max bed dropdown(com\\prf\\stepdefinitionfiles\\propertyfinder.feature:18)\r\n",
-  "status": "failed"
+  "duration": 191838496,
+  "status": "passed"
 });
 formatter.match({
   "location": "Navigation.pressButton()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1562667944,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
     {
-      "val": "3",
+      "val": "2",
       "offset": 11
     }
   ],
   "location": "Navigation.waitForTime(int)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2275998,
+  "status": "passed"
+});
+formatter.match({
+  "location": "Navigation.orderByPrice()"
+});
+formatter.result({
+  "duration": 2214576254,
+  "status": "passed"
 });
 formatter.match({
   "location": "Navigation.logResults()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1291605518,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -430,7 +438,8 @@ formatter.match({
   "location": "Navigation.goToLandingPage(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 5052891953,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -442,13 +451,15 @@ formatter.match({
   "location": "Navigation.waitForTime(int)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 4068885,
+  "status": "passed"
 });
 formatter.match({
   "location": "Navigation.goToFindAgentsPage()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2829817485,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -460,7 +471,8 @@ formatter.match({
   "location": "Navigation.waitForTime(int)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 7009772,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -472,7 +484,8 @@ formatter.match({
   "location": "Navigation.clickLanguageDropdown(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 89666587,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -484,7 +497,8 @@ formatter.match({
   "location": "Navigation.addLanguage(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 89523921,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -496,7 +510,8 @@ formatter.match({
   "location": "Navigation.clickLanguageDropdown(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 66842607,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -508,7 +523,8 @@ formatter.match({
   "location": "Navigation.addLanguage(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 98159468,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -520,7 +536,8 @@ formatter.match({
   "location": "Navigation.clickLanguageDropdown(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 76566599,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -532,13 +549,15 @@ formatter.match({
   "location": "Navigation.addLanguage(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 86506145,
+  "status": "passed"
 });
 formatter.match({
   "location": "Navigation.pressFindAgentButton()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1531321750,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -550,19 +569,22 @@ formatter.match({
   "location": "Navigation.waitForTime(int)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3330664,
+  "status": "passed"
 });
 formatter.match({
   "location": "Navigation.captureAgentsCount()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 43298184,
+  "status": "passed"
 });
 formatter.match({
   "location": "Navigation.maximizeWindow()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3361775,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -574,13 +596,15 @@ formatter.match({
   "location": "Navigation.waitForTime(int)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 3542219,
+  "status": "passed"
 });
 formatter.match({
   "location": "Navigation.addNationality()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 2579224374,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -592,19 +616,23 @@ formatter.match({
   "location": "Navigation.waitForTime(int)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 5569773,
+  "status": "passed"
 });
 formatter.match({
   "location": "Navigation.captureAgentsCountByNationality()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 120611448,
+  "status": "passed"
 });
 formatter.match({
   "location": "Navigation.compareNumOfAgents()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1779109,
+  "error_message": "junit.framework.AssertionFailedError\r\n\tat junit.framework.Assert.fail(Assert.java:48)\r\n\tat junit.framework.Assert.assertTrue(Assert.java:20)\r\n\tat junit.framework.Assert.assertTrue(Assert.java:27)\r\n\tat com.prf.pages.FindAgentsPage.compareAgentsCounts(FindAgentsPage.java:94)\r\n\tat com.prf.stepdefinitionfiles.Navigation.compareNumOfAgents(Navigation.java:165)\r\n\tat ✽.And I verify that the new count is less than the previous count(com\\prf\\stepdefinitionfiles\\propertyfinder.feature:42)\r\n",
+  "status": "failed"
 });
 formatter.match({
   "arguments": [

@@ -55,6 +55,12 @@ public class SearchPropertyPage {
 	/** Prices list for search results for Property search*/
 	public static final String PROPERTY_PRICES_LIST = "section#serp li > div.property-content > div.info-area > div > span.price";
 	
+	/** Sort by dropdown for search results for Property search*/
+	public static final String SORT_BY_DROPDOWN = "section#serp-nav button[type=\"button\"] > span";
+	
+	/** Sorting price from high to low for search results for Property search*/
+	public static final String SORT_BY_PRICE = "section#serp-nav li:nth-child(4)";
+	
 	/**
 	 * 
 	 * @param driver
@@ -97,6 +103,11 @@ public class SearchPropertyPage {
 	
 	public void clickFindButton(){
 		driver.findElement(By.cssSelector(CLICK_FIND_PROPERTY_BUTTON)).click();
+	}
+	
+	public void sortByPrice(){
+		driver.findElement(By.cssSelector(SORT_BY_DROPDOWN)).click();
+		driver.findElement(By.cssSelector(SORT_BY_PRICE)).click();
 	}
 
 	public void savePropertySearchResults() throws IOException{

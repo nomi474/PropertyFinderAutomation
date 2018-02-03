@@ -113,6 +113,12 @@ public class Navigation{
 		sp.clickFindButton();
 	}
 	
+	@And("^I sort the properties from high to low prices$")
+	public void orderByPrice(){
+		sp.sortByPrice();
+	}
+	
+	
 	@And("^I write search results in a file$")
 	public void logResults() throws IOException{
 		sp.savePropertySearchResults();

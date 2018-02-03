@@ -598,9 +598,9 @@ alse,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
 [INFO  - 2018-02-03T04:49:07.201Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2018-02-03T04:54:07.201Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2018-02-03T04:59:07.202Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-tion) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
-[ERROR - 2018-02-03T03:08:18.727Z] Session [7026b2d0-088f-11e8-88fd-f1b477d88072] - page.onError - msg: ReferenceError: Can't find variable: Promise
-[ERROR - 2018-02-03T03:08:18.727Z] Session [7026b2d0-088f-11e8-88fd-f1b477d88072] - page.onError - stack:
+[INFO  - 2018-02-03T05:04:07.203Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T05:09:07.203Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+ession [7026b2d0-088f-11e8-88fd-f1b477d88072] - page.onError - stack:
   request (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
   fetchChecksum (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
   initProvider (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
@@ -661,10 +661,9 @@ tion) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-
 [INFO  - 2018-02-03T04:47:58.409Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2018-02-03T04:52:58.433Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2018-02-03T04:57:58.433Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-r (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
-  forEach (:0)
-  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
-  (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
+[INFO  - 2018-02-03T05:02:58.437Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T05:07:58.438Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+c662b2c2ca90a0.agent-serp.js:1)
   e (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
   (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp.js:1)
 [ERROR - 2018-02-03T03:20:34.596Z] Session [274da440-0891-11e8-9a54-7514fb339daf] - page.onError - msg: ReferenceError: Can't find variable: Promise
@@ -726,11 +725,9 @@ r (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-serp
 [INFO  - 2018-02-03T04:45:15.138Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2018-02-03T04:50:15.154Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2018-02-03T04:55:15.154Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-a0.agent-home.js:1)
-  fetchChecksum (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
-  initProvider (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
-  forEach (:0)
-  initialize (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
+[INFO  - 2018-02-03T05:00:15.159Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T05:05:15.163Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
   (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
   e (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
   (anonymous function) (https://www.propertyfinder.ae/dist/desktop/js/a6b762c662b2c2ca90a0.agent-home.js:1)
@@ -795,3 +792,5 @@ a0.agent-home.js:1)
 [INFO  - 2018-02-03T04:44:18.151Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2018-02-03T04:49:18.151Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2018-02-03T04:54:18.153Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T04:59:18.154Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2018-02-03T05:04:18.153Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
