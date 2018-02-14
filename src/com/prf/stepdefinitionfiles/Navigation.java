@@ -10,7 +10,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.phantomjs.PhantomJSDriver;
+//import org.openqa.selenium.phantomjs.PhantomJSDriver;
 
 import com.prf.common.CommonFeatures;
 import com.prf.pages.SearchPropertyPage;
@@ -44,10 +44,7 @@ public class Navigation{
 		} else if (p.getProperty("browser").contains("chrome")){
 			System.setProperty("webdriver.chrome.driver", "C:\\PropertyFinder\\chromedriver.exe");
 			driver = new ChromeDriver();
-		} else if (p.getProperty("browser").contains("phantom")) {
-			System.setProperty("phantomjs.binary.path","C:\\PropertyFinder\\phantomjs.exe");
-			driver = new PhantomJSDriver();
-		}
+		} 
 	}
 	
 	@After

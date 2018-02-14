@@ -5,10 +5,11 @@ import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
+//import org.openqa.selenium.support.ui.WebDriverWait;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.TakesScreenshot;
 
@@ -52,7 +53,9 @@ public class CommonFeatures {
 	}
 	
 	public void maximizeBrowserWindow(){
-		driver.manage().window().maximize();
+		//driver.manage().window().maximize();
+		Dimension d = new Dimension(1920, 1080);
+		driver.manage().window().setSize(d);
 	}
 	
 	/**

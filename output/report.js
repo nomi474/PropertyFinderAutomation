@@ -94,7 +94,7 @@ formatter.match({
   "location": "Navigation.goToLandingPage(String)"
 });
 formatter.result({
-  "duration": 15753228664,
+  "duration": 17087702262,
   "status": "passed"
 });
 formatter.match({
@@ -107,14 +107,14 @@ formatter.match({
   "location": "Navigation.waitForTime(int)"
 });
 formatter.result({
-  "duration": 5715994,
+  "duration": 24859122,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.maximizeWindow()"
 });
 formatter.result({
-  "duration": 1158702970,
+  "duration": 53443579,
   "status": "passed"
 });
 formatter.match({
@@ -127,21 +127,21 @@ formatter.match({
   "location": "Navigation.waitForTime(int)"
 });
 formatter.result({
-  "duration": 9603103,
+  "duration": 4258224,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.selectTransactionType()"
 });
 formatter.result({
-  "duration": 413698299,
+  "duration": 203285868,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.selectPropertyType()"
 });
 formatter.result({
-  "duration": 360462346,
+  "duration": 182138303,
   "status": "passed"
 });
 formatter.match({
@@ -154,28 +154,28 @@ formatter.match({
   "location": "Navigation.enterLocationName(String)"
 });
 formatter.result({
-  "duration": 415605853,
+  "duration": 376811278,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.selectMinBeds()"
 });
 formatter.result({
-  "duration": 190699386,
+  "duration": 162615183,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.selectMaxBeds()"
 });
 formatter.result({
-  "duration": 191730052,
+  "duration": 218280097,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.pressButton()"
 });
 formatter.result({
-  "duration": 1349250801,
+  "duration": 1482406436,
   "status": "passed"
 });
 formatter.match({
@@ -188,28 +188,28 @@ formatter.match({
   "location": "Navigation.waitForTime(int)"
 });
 formatter.result({
-  "duration": 2915997,
+  "duration": 6691114,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.orderByPrice()"
 });
 formatter.result({
-  "duration": 2427041843,
+  "duration": 1749179444,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.logResults()"
 });
 formatter.result({
-  "duration": 1385272991,
+  "duration": 545471353,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.closeBrowser()"
 });
 formatter.result({
-  "duration": 996297336,
+  "duration": 1750950556,
   "status": "passed"
 });
 formatter.scenario({
@@ -330,14 +330,14 @@ formatter.match({
   "location": "Navigation.goToLandingPage(String)"
 });
 formatter.result({
-  "duration": 12239589121,
+  "duration": 9567242030,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.maximizeWindow()"
 });
 formatter.result({
-  "duration": 1153660752,
+  "duration": 78560924,
   "status": "passed"
 });
 formatter.match({
@@ -350,14 +350,14 @@ formatter.match({
   "location": "Navigation.waitForTime(int)"
 });
 formatter.result({
-  "duration": 11319101,
+  "duration": 20904009,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.goToFindAgentsPage()"
 });
 formatter.result({
-  "duration": 3933666282,
+  "duration": 2551279356,
   "status": "passed"
 });
 formatter.match({
@@ -370,7 +370,7 @@ formatter.match({
   "location": "Navigation.waitForTime(int)"
 });
 formatter.result({
-  "duration": 11946212,
+  "duration": 10256005,
   "status": "passed"
 });
 formatter.match({
@@ -383,7 +383,7 @@ formatter.match({
   "location": "Navigation.clickLanguageDropdown(String)"
 });
 formatter.result({
-  "duration": 88282588,
+  "duration": 1027111,
   "status": "passed"
 });
 formatter.match({
@@ -396,7 +396,7 @@ formatter.match({
   "location": "Navigation.addLanguage(String)"
 });
 formatter.result({
-  "duration": 133249660,
+  "duration": 115649384,
   "status": "passed"
 });
 formatter.match({
@@ -409,7 +409,7 @@ formatter.match({
   "location": "Navigation.clickLanguageDropdown(String)"
 });
 formatter.result({
-  "duration": 61692389,
+  "duration": 306666,
   "status": "passed"
 });
 formatter.match({
@@ -422,7 +422,7 @@ formatter.match({
   "location": "Navigation.addLanguage(String)"
 });
 formatter.result({
-  "duration": 79411930,
+  "duration": 96191598,
   "status": "passed"
 });
 formatter.match({
@@ -435,7 +435,7 @@ formatter.match({
   "location": "Navigation.clickLanguageDropdown(String)"
 });
 formatter.result({
-  "duration": 61208835,
+  "duration": 328889,
   "status": "passed"
 });
 formatter.match({
@@ -448,14 +448,14 @@ formatter.match({
   "location": "Navigation.addLanguage(String)"
 });
 formatter.result({
-  "duration": 101995021,
+  "duration": 98888488,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.pressFindAgentButton()"
 });
 formatter.result({
-  "duration": 1557743504,
+  "duration": 1047483132,
   "status": "passed"
 });
 formatter.match({
@@ -468,14 +468,14 @@ formatter.match({
   "location": "Navigation.waitForTime(int)"
 });
 formatter.result({
-  "duration": 2915109,
+  "duration": 4620447,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.captureAgentsCount()"
 });
 formatter.result({
-  "duration": 41211964,
+  "duration": 61373361,
   "status": "passed"
 });
 formatter.match({
@@ -488,15 +488,16 @@ formatter.match({
   "location": "Navigation.waitForTime(int)"
 });
 formatter.result({
-  "duration": 2139554,
+  "duration": 5777336,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.addNationality()"
 });
 formatter.result({
-  "duration": 537729300,
-  "status": "passed"
+  "duration": 3643166953,
+  "error_message": "org.openqa.selenium.NoSuchElementException: {\"errorMessage\":\"Unable to find element with css selector \u0027div:nth-child(5) \u003e div \u003e div.dropdown_text.dropdown_text-serp\u0027\",\"request\":{\"headers\":{\"Accept-Encoding\":\"gzip,deflate\",\"Connection\":\"Keep-Alive\",\"Content-Length\":\"96\",\"Content-Type\":\"application/json; charset\u003dutf-8\",\"Host\":\"localhost:25251\",\"User-Agent\":\"Apache-HttpClient/4.5.3 (Java/1.8.0_151)\"},\"httpVersion\":\"1.1\",\"method\":\"POST\",\"post\":\"{\\\"using\\\":\\\"css selector\\\",\\\"value\\\":\\\"div:nth-child(5) \u003e div \u003e div.dropdown_text.dropdown_text-serp\\\"}\",\"url\":\"/element\",\"urlParsed\":{\"anchor\":\"\",\"query\":\"\",\"file\":\"element\",\"directory\":\"/\",\"path\":\"/element\",\"relative\":\"/element\",\"port\":\"\",\"host\":\"\",\"password\":\"\",\"user\":\"\",\"userInfo\":\"\",\"authority\":\"\",\"protocol\":\"\",\"source\":\"/element\",\"queryKey\":{},\"chunks\":[\"element\"]},\"urlOriginal\":\"/session/0b63fd70-09d0-11e8-91e0-e5e80e71e8fc/element\"}}\nCommand duration or timeout: 3.56 seconds\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:501)\r\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)\r\n\tat com.prf.pages.FindAgentsPage.selectNationality(FindAgentsPage.java:80)\r\n\tat com.prf.stepdefinitionfiles.Navigation.addNationality(Navigation.java:155)\r\n\tat ✽.And I select India from the Nationality dropdown(com\\prf\\stepdefinitionfiles\\propertyfinder.feature:35)\r\nCaused by: org.openqa.selenium.remote.ScreenshotException: Screen shot has been taken\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:141)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:501)\r\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:430)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)\r\n\tat com.prf.pages.FindAgentsPage.selectNationality(FindAgentsPage.java:80)\r\n\tat com.prf.stepdefinitionfiles.Navigation.addNationality(Navigation.java:155)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)\r\n\tat java.lang.reflect.Method.invoke(Unknown Source)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:42)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:12)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:38)\r\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:35)\r\n\tat cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:38)\r\n\tat cucumber.runtime.Runtime.runStep(Runtime.java:267)\r\n\tat cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)\r\n\tat cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:36)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:76)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:65)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:20)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:300)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:72)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:77)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:37)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:300)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:82)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:539)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:761)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:461)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:207)\r\nCaused by: org.openqa.selenium.NoSuchElementException: {\"errorMessage\":\"Unable to find element with css selector \u0027div:nth-child(5) \u003e div \u003e div.dropdown_text.dropdown_text-serp\u0027\",\"request\":{\"headers\":{\"Accept-Encoding\":\"gzip,deflate\",\"Connection\":\"Keep-Alive\",\"Content-Length\":\"96\",\"Content-Type\":\"application/json; charset\u003dutf-8\",\"Host\":\"localhost:25251\",\"User-Agent\":\"Apache-HttpClient/4.5.3 (Java/1.8.0_151)\"},\"httpVersion\":\"1.1\",\"method\":\"POST\",\"post\":\"{\\\"using\\\":\\\"css selector\\\",\\\"value\\\":\\\"div:nth-child(5) \u003e div \u003e div.dropdown_text.dropdown_text-serp\\\"}\",\"url\":\"/element\",\"urlParsed\":{\"anchor\":\"\",\"query\":\"\",\"file\":\"element\",\"directory\":\"/\",\"path\":\"/element\",\"relative\":\"/element\",\"port\":\"\",\"host\":\"\",\"password\":\"\",\"user\":\"\",\"userInfo\":\"\",\"authority\":\"\",\"protocol\":\"\",\"source\":\"/element\",\"queryKey\":{},\"chunks\":[\"element\"]},\"urlOriginal\":\"/session/0b63fd70-09d0-11e8-91e0-e5e80e71e8fc/element\"}}\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u0027unknown\u0027, revision: \u0027unknown\u0027, time: \u0027unknown\u0027\nSystem info: host: \u0027DESKTOP-UQR0DS5\u0027, ip: \u0027192.168.1.111\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_151\u0027\nDriver info: driver.version: unknown\r\n",
+  "status": "failed"
 });
 formatter.match({
   "arguments": [
@@ -508,30 +509,27 @@ formatter.match({
   "location": "Navigation.waitForTime(int)"
 });
 formatter.result({
-  "duration": 3284441,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "Navigation.captureAgentsCountByNationality()"
 });
 formatter.result({
-  "duration": 2755573107,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "Navigation.compareNumOfAgents()"
 });
 formatter.result({
-  "duration": 2141332,
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.match({
   "location": "Navigation.closeBrowser()"
 });
 formatter.result({
-  "duration": 894792094,
-  "status": "passed"
+  "status": "skipped"
 });
+formatter.embedding("\u0027image/png\u0027,\u0027embedded0.png\u0027");
 formatter.scenario({
   "line": 41,
   "name": "Capture Agents Details",
@@ -680,14 +678,14 @@ formatter.match({
   "location": "Navigation.goToLandingPage(String)"
 });
 formatter.result({
-  "duration": 13090363919,
+  "duration": 12546443354,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.maximizeWindow()"
 });
 formatter.result({
-  "duration": 1136495879,
+  "duration": 62877361,
   "status": "passed"
 });
 formatter.match({
@@ -700,14 +698,14 @@ formatter.match({
   "location": "Navigation.waitForTime(int)"
 });
 formatter.result({
-  "duration": 3546219,
+  "duration": 5708447,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.goToFindAgentsPage()"
 });
 formatter.result({
-  "duration": 1500851554,
+  "duration": 987894217,
   "status": "passed"
 });
 formatter.match({
@@ -720,14 +718,14 @@ formatter.match({
   "location": "Navigation.waitForTime(int)"
 });
 formatter.result({
-  "duration": 8882215,
+  "duration": 6296892,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.chooseFirstAgent()"
 });
 formatter.result({
-  "duration": 3012514655,
+  "duration": 2090609818,
   "status": "passed"
 });
 formatter.match({
@@ -740,49 +738,49 @@ formatter.match({
   "location": "Navigation.waitForTime(int)"
 });
 formatter.result({
-  "duration": 5216440,
+  "duration": 5739114,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.captureAgentName()"
 });
 formatter.result({
-  "duration": 48823957,
+  "duration": 54354246,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.captureAgentNationality()"
 });
 formatter.result({
-  "duration": 40245742,
+  "duration": 57641804,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.captureAgentLanguages()"
 });
 formatter.result({
-  "duration": 51013732,
+  "duration": 51820023,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.captureAgentLicenseNum()"
 });
 formatter.result({
-  "duration": 38487966,
+  "duration": 54587579,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.goToAboutMeTab()"
 });
 formatter.result({
-  "duration": 134101659,
+  "duration": 158451181,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.captureAboutMeInfo()"
 });
 formatter.result({
-  "duration": 77603487,
+  "duration": 51809800,
   "status": "passed"
 });
 formatter.match({
@@ -795,14 +793,14 @@ formatter.match({
   "location": "Navigation.waitForTime(int)"
 });
 formatter.result({
-  "duration": 2761331,
+  "duration": 4049780,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.clickCallAgentButton()"
 });
 formatter.result({
-  "duration": 189619832,
+  "duration": 92646708,
   "status": "passed"
 });
 formatter.match({
@@ -815,49 +813,49 @@ formatter.match({
   "location": "Navigation.waitForTime(int)"
 });
 formatter.result({
-  "duration": 4947552,
+  "duration": 3544446,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.captureAgentPhoneNum()"
 });
 formatter.result({
-  "duration": 66641274,
+  "duration": 61515138,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.captureAgentCompanyName()"
 });
 formatter.result({
-  "duration": 52020843,
+  "duration": 57865359,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.captureAgentExperience()"
 });
 formatter.result({
-  "duration": 52973286,
+  "duration": 61018250,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.captureAgentNumOfListings()"
 });
 formatter.result({
-  "duration": 46603514,
+  "duration": 58607581,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.captureAgentLinkedInUrl()"
 });
 formatter.result({
-  "duration": 31362194,
+  "duration": 50814244,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.logAgentInfo()"
 });
 formatter.result({
-  "duration": 1020444,
+  "duration": 1682667,
   "status": "passed"
 });
 formatter.match({
@@ -870,14 +868,14 @@ formatter.match({
   "location": "Navigation.takeScreenshot(String)"
 });
 formatter.result({
-  "duration": 621347892,
+  "duration": 539099796,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.changeLanguage()"
 });
 formatter.result({
-  "duration": 2806423283,
+  "duration": 549395800,
   "status": "passed"
 });
 formatter.match({
@@ -890,14 +888,14 @@ formatter.match({
   "location": "Navigation.takeScreenshot(String)"
 });
 formatter.result({
-  "duration": 398129868,
+  "duration": 577182923,
   "status": "passed"
 });
 formatter.match({
   "location": "Navigation.closeBrowser()"
 });
 formatter.result({
-  "duration": 914670298,
+  "duration": 306618803,
   "status": "passed"
 });
 });

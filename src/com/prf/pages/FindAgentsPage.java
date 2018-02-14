@@ -3,15 +3,13 @@ package com.prf.pages;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.Dimension;
 import org.openqa.selenium.JavascriptExecutor;
+
 import com.prf.common.CommonFeatures;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.firefox.FirefoxDriver;
-
 import junit.framework.Assert;
 
 public class FindAgentsPage {
@@ -69,15 +67,16 @@ public class FindAgentsPage {
 		driver.findElement(By.cssSelector(FIND_AGENT_BUTTON)).click();
 	}
 	
-	public void getAgentsCount(){
+	public void getAgentsCount(){	
 		String  numAgentsText = driver.findElement(By.cssSelector(NUM_AGENTS_TEXT)).getText();
 		String[] parts = numAgentsText.split(" Matching");
 		totalAgentsCount = Integer.parseInt(parts[0]);
 	}
 
 	public void selectNationality(){
-		Dimension d = new Dimension(1920, 1080);
-		driver.manage().window().setSize(d);
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollTo(0, 0)");
+		driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
 		driver.findElement(By.cssSelector(CLICK_NATIONALITY_DROPDOWN)).click();
 		driver.findElement(By.cssSelector(SELECT_NATIONALITY_INDIA)).click();
 	}
