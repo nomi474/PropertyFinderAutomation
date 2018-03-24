@@ -10,7 +10,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-//import org.openqa.selenium.phantomjs.PhantomJSDriver;
 
 import com.prf.common.CommonFeatures;
 import com.prf.pages.SearchPropertyPage;
@@ -22,7 +21,10 @@ import cucumber.api.java.After;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 
-public class Navigation{
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.firefox.FirefoxOptions;
+
+public class Navigation {
 	
 	WebDriver driver;		
 	SearchPropertyPage sp;
@@ -40,11 +42,19 @@ public class Navigation{
 	    }
 		if(p.getProperty("browser").contains("firefox")){
 			System.setProperty("webdriver.gecko.driver", "C:\\PropertyFinder\\geckodriver.exe");
-			driver = new FirefoxDriver();
+			//Set Firefox Headless mode as TRUE
+			FirefoxOptions options = new FirefoxOptions();
+			Boolean headless = Boolean.valueOf(p.getProperty("headless"));
+			options.setHeadless(headless);
+			driver = new FirefoxDriver(options);
 		} else if (p.getProperty("browser").contains("chrome")){
 			System.setProperty("webdriver.chrome.driver", "C:\\PropertyFinder\\chromedriver.exe");
-			driver = new ChromeDriver();
-		} 
+			//Set Chrome Headless mode as TRUE
+			ChromeOptions options = new ChromeOptions();
+			Boolean headless = Boolean.valueOf(p.getProperty("headless"));
+			options.setHeadless(headless);
+			driver = new ChromeDriver(options);
+		} 		
 	}
 	
 	@After
